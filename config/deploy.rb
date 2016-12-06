@@ -2,7 +2,7 @@
 lock '3.6.1'
 
 set :application, 'test-capistrano'
-set :repo_url, 'git@github.com:mannv/full-lumen.git'
+set :repo_url, 'git@github.com:mannv/phpunit.git'
 set :scm, :git
 
 # Default branch is :master
