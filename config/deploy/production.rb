@@ -60,7 +60,7 @@
 #     # password: 'please use keys'
 #   }
 
-set :deploy_to, '/home/ubuntu/capistrano/prod'
+set :deploy_to, '/var/www/capistrano/prod'
 set :branch, 'master'
 # set :composer_install_flags, '--no-dev --no-interaction --quiet --optimize-autoloader'
 
@@ -74,10 +74,10 @@ set :branch, 'master'
 #   }
 
 server '35.163.165.15',
-  user: 'ubuntu',
+  user: 'root',
   roles: %w{web app},
   ssh_options: {
-    user: 'ubuntu', # overrides user setting above
+    user: 'root', # overrides user setting above
     keys: %w(new_key_pair.pem),
     forward_agent: false
   }  
