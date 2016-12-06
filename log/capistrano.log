@@ -1,0 +1,1105 @@
+# Logfile created on 2016-12-05 02:06:45 +0000 by logger.rb/54362
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-05 02:06:45 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [03ac4f73] Running /usr/bin/env mkdir -p /tmp as ubuntu@capdemo.com
+ DEBUG [03ac4f73] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-05 02:07:26 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [6fca1317] Running /usr/bin/env mkdir -p /tmp as ubuntu@35.164.113.129
+ DEBUG [6fca1317] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-05 02:10:59 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [8938f8e5] Running /usr/bin/env mkdir -p /tmp as ubuntu@35.164.113.129
+ DEBUG [8938f8e5] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-05 02:11:24 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [4fbe45af] Running /usr/bin/env mkdir -p /tmp as ubuntu@54.255.133.66
+ DEBUG [4fbe45af] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-05 02:12:01 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [bc55165f] Running /usr/bin/env mkdir -p /tmp as ubuntu@54.255.133.66
+ DEBUG [bc55165f] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-05 02:12:12 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [958d849b] Running /usr/bin/env mkdir -p /tmp as ubuntu@54.255.133.66
+ DEBUG [958d849b] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-05 02:13:28 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [bc31600b] Running /usr/bin/env mkdir -p /tmp as ubuntu@54.255.133.66
+ DEBUG [bc31600b] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-05 02:17:13 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [2082bd72] Running /usr/bin/env mkdir -p /tmp as ubuntu@54.255.133.66
+ DEBUG [2082bd72] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-05 02:18:16 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [6d6a278b] Running /usr/bin/env mkdir -p /tmp as ubuntu@54.255.133.66
+ DEBUG [6d6a278b] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-05 02:21:10 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [b56409cf] Running /usr/bin/env mkdir -p /tmp as ubuntu@54.255.133.66
+ DEBUG [b56409cf] Command: /usr/bin/env mkdir -p /tmp
+  INFO [b56409cf] Finished in 2.369 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-test-capistrano-production-.sh 0.0%
+  INFO Uploading /tmp/git-ssh-test-capistrano-production-.sh 100.0%
+  INFO [10b5807d] Running /usr/bin/env chmod 700 /tmp/git-ssh-test-capistrano-production-.sh as ubuntu@54.255.133.66
+ DEBUG [10b5807d] Command: /usr/bin/env chmod 700 /tmp/git-ssh-test-capistrano-production-.sh
+  INFO [10b5807d] Finished in 0.133 seconds with exit status 0 (successful).
+  INFO [a9f0166e] Running /usr/bin/env git ls-remote --heads git@github.com:mannv/full-lumen.git as ubuntu@54.255.133.66
+ DEBUG [a9f0166e] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git ls-remote --heads git@github.com:mannv/full-lumen.git )
+ DEBUG [a9f0166e] 	Warning: Permanently added 'github.com,192.30.253.112' (RSA) to the list of known hosts.
+ DEBUG [a9f0166e] 	Permission denied (publickey).
+ DEBUG [a9f0166e] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-05 02:23:18 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [2e2ef005] Running /usr/bin/env mkdir -p /tmp as ubuntu@54.255.133.66
+ DEBUG [2e2ef005] Command: /usr/bin/env mkdir -p /tmp
+  INFO [2e2ef005] Finished in 4.131 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-test-capistrano-production-.sh 0.0%
+  INFO Uploading /tmp/git-ssh-test-capistrano-production-.sh 100.0%
+  INFO [e02c3e9d] Running /usr/bin/env chmod 700 /tmp/git-ssh-test-capistrano-production-.sh as ubuntu@54.255.133.66
+ DEBUG [e02c3e9d] Command: /usr/bin/env chmod 700 /tmp/git-ssh-test-capistrano-production-.sh
+  INFO [e02c3e9d] Finished in 0.128 seconds with exit status 0 (successful).
+  INFO [89c05d96] Running /usr/bin/env git ls-remote --heads git@github.com:mannv/full-lumen.git as ubuntu@54.255.133.66
+ DEBUG [89c05d96] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git ls-remote --heads git@github.com:mannv/full-lumen.git )
+ DEBUG [89c05d96] 	Warning: Permanently added the RSA host key for IP address '192.30.253.113' to the list of known hosts.
+ DEBUG [89c05d96] 	b8abea8d6a44f125ed8a667eef7a68c043ca70ca	refs/heads/master
+  INFO [89c05d96] Finished in 3.039 seconds with exit status 0 (successful).
+  INFO [df48fb23] Running /usr/bin/env mkdir -p /home/ubuntu/capistrano/shared /home/ubuntu/capistrano/releases as ubuntu@54.255.133.66
+ DEBUG [df48fb23] Command: /usr/bin/env mkdir -p /home/ubuntu/capistrano/shared /home/ubuntu/capistrano/releases
+  INFO [df48fb23] Finished in 0.150 seconds with exit status 0 (successful).
+ DEBUG [f66b6fcd] Running [ -f /home/ubuntu/capistrano/current/REVISION ] as ubuntu@54.255.133.66
+ DEBUG [f66b6fcd] Command: [ -f /home/ubuntu/capistrano/current/REVISION ]
+ DEBUG [f66b6fcd] Finished in 0.128 seconds with exit status 1 (failed).
+ DEBUG [8e32f7f8] Running [ -f /home/ubuntu/capistrano/repo/HEAD ] as ubuntu@54.255.133.66
+ DEBUG [8e32f7f8] Command: [ -f /home/ubuntu/capistrano/repo/HEAD ]
+ DEBUG [8e32f7f8] Finished in 0.128 seconds with exit status 1 (failed).
+ DEBUG [ff0241a9] Running if test ! -d /home/ubuntu/capistrano; then echo "Directory does not exist '/home/ubuntu/capistrano'" 1>&2; false; fi as ubuntu@54.255.133.66
+ DEBUG [ff0241a9] Command: if test ! -d /home/ubuntu/capistrano; then echo "Directory does not exist '/home/ubuntu/capistrano'" 1>&2; false; fi
+ DEBUG [ff0241a9] Finished in 0.128 seconds with exit status 0 (successful).
+  INFO [249a0827] Running /usr/bin/env git clone --mirror git@github.com:mannv/full-lumen.git /home/ubuntu/capistrano/repo as ubuntu@54.255.133.66
+ DEBUG [249a0827] Command: cd /home/ubuntu/capistrano && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git clone --mirror git@github.com:mannv/full-lumen.git /home/ubuntu/capistrano/repo )
+ DEBUG [249a0827] 	Cloning into bare repository '/home/ubuntu/capistrano/repo'...
+  INFO [249a0827] Finished in 6.980 seconds with exit status 0 (successful).
+ DEBUG [6367f505] Running if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi as ubuntu@54.255.133.66
+ DEBUG [6367f505] Command: if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi
+ DEBUG [6367f505] Finished in 0.136 seconds with exit status 0 (successful).
+  INFO [eae13476] Running /usr/bin/env git remote update --prune as ubuntu@54.255.133.66
+ DEBUG [eae13476] Command: cd /home/ubuntu/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [eae13476] 	Fetching origin
+  INFO [eae13476] Finished in 3.308 seconds with exit status 0 (successful).
+ DEBUG [a2a85d95] Running if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi as ubuntu@54.255.133.66
+ DEBUG [a2a85d95] Command: if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi
+ DEBUG [a2a85d95] Finished in 0.134 seconds with exit status 0 (successful).
+  INFO [9335f0c6] Running /usr/bin/env mkdir -p /home/ubuntu/capistrano/releases/20161205022326 as ubuntu@54.255.133.66
+ DEBUG [9335f0c6] Command: cd /home/ubuntu/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env mkdir -p /home/ubuntu/capistrano/releases/20161205022326 )
+  INFO [9335f0c6] Finished in 0.136 seconds with exit status 0 (successful).
+  INFO [106663b8] Running /usr/bin/env git archive master | tar -x -f - -C /home/ubuntu/capistrano/releases/20161205022326 as ubuntu@54.255.133.66
+ DEBUG [106663b8] Command: cd /home/ubuntu/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git archive master | tar -x -f - -C /home/ubuntu/capistrano/releases/20161205022326 )
+  INFO [106663b8] Finished in 0.373 seconds with exit status 0 (successful).
+ DEBUG [c5cd78c0] Running if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi as ubuntu@54.255.133.66
+ DEBUG [c5cd78c0] Command: if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi
+ DEBUG [c5cd78c0] Finished in 0.135 seconds with exit status 0 (successful).
+ DEBUG [9c8f59b9] Running /usr/bin/env git rev-list --max-count=1 master as ubuntu@54.255.133.66
+ DEBUG [9c8f59b9] Command: cd /home/ubuntu/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [9c8f59b9] 	b8abea8d6a44f125ed8a667eef7a68c043ca70ca
+ DEBUG [9c8f59b9] Finished in 0.146 seconds with exit status 0 (successful).
+ DEBUG [dc181435] Running if test ! -d /home/ubuntu/capistrano/releases/20161205022326; then echo "Directory does not exist '/home/ubuntu/capistrano/releases/20161205022326'" 1>&2; false; fi as ubuntu@54.255.133.66
+ DEBUG [dc181435] Command: if test ! -d /home/ubuntu/capistrano/releases/20161205022326; then echo "Directory does not exist '/home/ubuntu/capistrano/releases/20161205022326'" 1>&2; false; fi
+ DEBUG [dc181435] Finished in 0.134 seconds with exit status 0 (successful).
+  INFO [d9729c91] Running /usr/bin/env echo "b8abea8d6a44f125ed8a667eef7a68c043ca70ca" >> REVISION as ubuntu@54.255.133.66
+ DEBUG [d9729c91] Command: cd /home/ubuntu/capistrano/releases/20161205022326 && /usr/bin/env echo "b8abea8d6a44f125ed8a667eef7a68c043ca70ca" >> REVISION
+  INFO [d9729c91] Finished in 0.135 seconds with exit status 0 (successful).
+  INFO [8bec6bf7] Running /usr/bin/env ln -s /home/ubuntu/capistrano/releases/20161205022326 /home/ubuntu/capistrano/releases/current as ubuntu@54.255.133.66
+ DEBUG [8bec6bf7] Command: /usr/bin/env ln -s /home/ubuntu/capistrano/releases/20161205022326 /home/ubuntu/capistrano/releases/current
+  INFO [8bec6bf7] Finished in 0.134 seconds with exit status 0 (successful).
+  INFO [dc9fa8a5] Running /usr/bin/env mv /home/ubuntu/capistrano/releases/current /home/ubuntu/capistrano as ubuntu@54.255.133.66
+ DEBUG [dc9fa8a5] Command: /usr/bin/env mv /home/ubuntu/capistrano/releases/current /home/ubuntu/capistrano
+  INFO [dc9fa8a5] Finished in 0.136 seconds with exit status 0 (successful).
+ DEBUG [c6956fac] Running /usr/bin/env ls -xtr /home/ubuntu/capistrano/releases as ubuntu@54.255.133.66
+ DEBUG [c6956fac] Command: /usr/bin/env ls -xtr /home/ubuntu/capistrano/releases
+ DEBUG [c6956fac] 	20161205022326
+ DEBUG [c6956fac] Finished in 0.144 seconds with exit status 0 (successful).
+ DEBUG [19321d77] Running if test ! -d /home/ubuntu/capistrano/releases; then echo "Directory does not exist '/home/ubuntu/capistrano/releases'" 1>&2; false; fi as ubuntu@54.255.133.66
+ DEBUG [19321d77] Command: if test ! -d /home/ubuntu/capistrano/releases; then echo "Directory does not exist '/home/ubuntu/capistrano/releases'" 1>&2; false; fi
+ DEBUG [19321d77] Finished in 0.135 seconds with exit status 0 (successful).
+  INFO [e08ee037] Running /usr/bin/env echo "Branch master (at b8abea8d6a44f125ed8a667eef7a68c043ca70ca) deployed as release 20161205022326 by " >> /home/ubuntu/capistrano/revisions.log as ubuntu@54.255.133.66
+ DEBUG [e08ee037] Command: cd /home/ubuntu/capistrano/releases && /usr/bin/env echo "Branch master (at b8abea8d6a44f125ed8a667eef7a68c043ca70ca) deployed as release 20161205022326 by " >> /home/ubuntu/capistrano/revisions.log
+  INFO [e08ee037] Finished in 0.137 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-05 02:24:07 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [18125600] Running /usr/bin/env mkdir -p /tmp as ubuntu@54.255.133.66
+ DEBUG [18125600] Command: /usr/bin/env mkdir -p /tmp
+  INFO [18125600] Finished in 1.067 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-test-capistrano-production-.sh 0.0%
+  INFO Uploading /tmp/git-ssh-test-capistrano-production-.sh 100.0%
+  INFO [b449f4e8] Running /usr/bin/env chmod 700 /tmp/git-ssh-test-capistrano-production-.sh as ubuntu@54.255.133.66
+ DEBUG [b449f4e8] Command: /usr/bin/env chmod 700 /tmp/git-ssh-test-capistrano-production-.sh
+  INFO [b449f4e8] Finished in 0.129 seconds with exit status 0 (successful).
+  INFO [c378be45] Running /usr/bin/env git ls-remote --heads git@github.com:mannv/full-lumen.git as ubuntu@54.255.133.66
+ DEBUG [c378be45] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git ls-remote --heads git@github.com:mannv/full-lumen.git )
+ DEBUG [c378be45] 	b8abea8d6a44f125ed8a667eef7a68c043ca70ca	refs/heads/master
+  INFO [c378be45] Finished in 3.280 seconds with exit status 0 (successful).
+  INFO [d12703d2] Running /usr/bin/env mkdir -p /home/ubuntu/capistrano/shared /home/ubuntu/capistrano/releases as ubuntu@54.255.133.66
+ DEBUG [d12703d2] Command: /usr/bin/env mkdir -p /home/ubuntu/capistrano/shared /home/ubuntu/capistrano/releases
+  INFO [d12703d2] Finished in 0.130 seconds with exit status 0 (successful).
+ DEBUG [4fd66b0e] Running [ -f /home/ubuntu/capistrano/current/REVISION ] as ubuntu@54.255.133.66
+ DEBUG [4fd66b0e] Command: [ -f /home/ubuntu/capistrano/current/REVISION ]
+ DEBUG [4fd66b0e] Finished in 0.128 seconds with exit status 0 (successful).
+ DEBUG [97590257] Running /usr/bin/env cat /home/ubuntu/capistrano/current/REVISION 2>/dev/null as ubuntu@54.255.133.66
+ DEBUG [97590257] Command: /usr/bin/env cat /home/ubuntu/capistrano/current/REVISION 2>/dev/null
+ DEBUG [97590257] 	b8abea8d6a44f125ed8a667eef7a68c043ca70ca
+ DEBUG [97590257] Finished in 0.136 seconds with exit status 0 (successful).
+ DEBUG [a59ac385] Running [ -f /home/ubuntu/capistrano/repo/HEAD ] as ubuntu@54.255.133.66
+ DEBUG [a59ac385] Command: [ -f /home/ubuntu/capistrano/repo/HEAD ]
+ DEBUG [a59ac385] Finished in 0.128 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/ubuntu/capistrano/repo
+ DEBUG [9648bc07] Running if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi as ubuntu@54.255.133.66
+ DEBUG [9648bc07] Command: if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi
+ DEBUG [9648bc07] Finished in 0.128 seconds with exit status 0 (successful).
+  INFO [7060609f] Running /usr/bin/env git remote update --prune as ubuntu@54.255.133.66
+ DEBUG [7060609f] Command: cd /home/ubuntu/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [7060609f] 	Fetching origin
+  INFO [7060609f] Finished in 3.162 seconds with exit status 0 (successful).
+ DEBUG [0447a0b0] Running if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi as ubuntu@54.255.133.66
+ DEBUG [0447a0b0] Command: if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi
+ DEBUG [0447a0b0] Finished in 0.129 seconds with exit status 0 (successful).
+  INFO [27339231] Running /usr/bin/env mkdir -p /home/ubuntu/capistrano/releases/20161205022413 as ubuntu@54.255.133.66
+ DEBUG [27339231] Command: cd /home/ubuntu/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env mkdir -p /home/ubuntu/capistrano/releases/20161205022413 )
+  INFO [27339231] Finished in 0.131 seconds with exit status 0 (successful).
+  INFO [b6299e4b] Running /usr/bin/env git archive master | tar -x -f - -C /home/ubuntu/capistrano/releases/20161205022413 as ubuntu@54.255.133.66
+ DEBUG [b6299e4b] Command: cd /home/ubuntu/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git archive master | tar -x -f - -C /home/ubuntu/capistrano/releases/20161205022413 )
+  INFO [b6299e4b] Finished in 0.364 seconds with exit status 0 (successful).
+ DEBUG [dbfc6673] Running if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi as ubuntu@54.255.133.66
+ DEBUG [dbfc6673] Command: if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi
+ DEBUG [dbfc6673] Finished in 0.129 seconds with exit status 0 (successful).
+ DEBUG [ede36b15] Running /usr/bin/env git rev-list --max-count=1 master as ubuntu@54.255.133.66
+ DEBUG [ede36b15] Command: cd /home/ubuntu/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [ede36b15] 	b8abea8d6a44f125ed8a667eef7a68c043ca70ca
+ DEBUG [ede36b15] Finished in 0.137 seconds with exit status 0 (successful).
+ DEBUG [1cfb9bb6] Running if test ! -d /home/ubuntu/capistrano/releases/20161205022413; then echo "Directory does not exist '/home/ubuntu/capistrano/releases/20161205022413'" 1>&2; false; fi as ubuntu@54.255.133.66
+ DEBUG [1cfb9bb6] Command: if test ! -d /home/ubuntu/capistrano/releases/20161205022413; then echo "Directory does not exist '/home/ubuntu/capistrano/releases/20161205022413'" 1>&2; false; fi
+ DEBUG [1cfb9bb6] Finished in 0.128 seconds with exit status 0 (successful).
+  INFO [84b7c750] Running /usr/bin/env echo "b8abea8d6a44f125ed8a667eef7a68c043ca70ca" >> REVISION as ubuntu@54.255.133.66
+ DEBUG [84b7c750] Command: cd /home/ubuntu/capistrano/releases/20161205022413 && /usr/bin/env echo "b8abea8d6a44f125ed8a667eef7a68c043ca70ca" >> REVISION
+  INFO [84b7c750] Finished in 0.151 seconds with exit status 0 (successful).
+  INFO [a647ba28] Running /usr/bin/env ln -s /home/ubuntu/capistrano/releases/20161205022413 /home/ubuntu/capistrano/releases/current as ubuntu@54.255.133.66
+ DEBUG [a647ba28] Command: /usr/bin/env ln -s /home/ubuntu/capistrano/releases/20161205022413 /home/ubuntu/capistrano/releases/current
+  INFO [a647ba28] Finished in 0.129 seconds with exit status 0 (successful).
+  INFO [8c7da54e] Running /usr/bin/env mv /home/ubuntu/capistrano/releases/current /home/ubuntu/capistrano as ubuntu@54.255.133.66
+ DEBUG [8c7da54e] Command: /usr/bin/env mv /home/ubuntu/capistrano/releases/current /home/ubuntu/capistrano
+  INFO [8c7da54e] Finished in 0.131 seconds with exit status 0 (successful).
+ DEBUG [64554423] Running /usr/bin/env ls -xtr /home/ubuntu/capistrano/releases as ubuntu@54.255.133.66
+ DEBUG [64554423] Command: /usr/bin/env ls -xtr /home/ubuntu/capistrano/releases
+ DEBUG [64554423] 	20161205022326	20161205022413
+ DEBUG [64554423] Finished in 0.136 seconds with exit status 0 (successful).
+ DEBUG [3db465c2] Running if test ! -d /home/ubuntu/capistrano/releases; then echo "Directory does not exist '/home/ubuntu/capistrano/releases'" 1>&2; false; fi as ubuntu@54.255.133.66
+ DEBUG [3db465c2] Command: if test ! -d /home/ubuntu/capistrano/releases; then echo "Directory does not exist '/home/ubuntu/capistrano/releases'" 1>&2; false; fi
+ DEBUG [3db465c2] Finished in 0.128 seconds with exit status 0 (successful).
+  INFO [d6f03458] Running /usr/bin/env echo "Branch master (at b8abea8d6a44f125ed8a667eef7a68c043ca70ca) deployed as release 20161205022413 by " >> /home/ubuntu/capistrano/revisions.log as ubuntu@54.255.133.66
+ DEBUG [d6f03458] Command: cd /home/ubuntu/capistrano/releases && /usr/bin/env echo "Branch master (at b8abea8d6a44f125ed8a667eef7a68c043ca70ca) deployed as release 20161205022413 by " >> /home/ubuntu/capistrano/revisions.log
+  INFO [d6f03458] Finished in 0.130 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-05 02:27:07 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [838fa29f] Running /usr/bin/env mkdir -p /tmp as ubuntu@35.164.113.129
+ DEBUG [838fa29f] Command: /usr/bin/env mkdir -p /tmp
+  INFO [838fa29f] Finished in 18.925 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-test-capistrano-production-.sh 0.0%
+  INFO Uploading /tmp/git-ssh-test-capistrano-production-.sh 100.0%
+  INFO [5b691600] Running /usr/bin/env chmod 700 /tmp/git-ssh-test-capistrano-production-.sh as ubuntu@35.164.113.129
+ DEBUG [5b691600] Command: /usr/bin/env chmod 700 /tmp/git-ssh-test-capistrano-production-.sh
+  INFO [5b691600] Finished in 0.549 seconds with exit status 0 (successful).
+  INFO [8f4e95af] Running /usr/bin/env git ls-remote --heads git@github.com:mannv/full-lumen.git as ubuntu@35.164.113.129
+ DEBUG [8f4e95af] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git ls-remote --heads git@github.com:mannv/full-lumen.git )
+ DEBUG [8f4e95af] 	Warning: Permanently added 'github.com,192.30.253.113' (RSA) to the list of known hosts.
+ DEBUG [8f4e95af] 	b8abea8d6a44f125ed8a667eef7a68c043ca70ca	refs/heads/master
+  INFO [8f4e95af] Finished in 3.648 seconds with exit status 0 (successful).
+  INFO [1d2ad20e] Running /usr/bin/env mkdir -p /home/ubuntu/capistrano/shared /home/ubuntu/capistrano/releases as ubuntu@35.164.113.129
+ DEBUG [1d2ad20e] Command: /usr/bin/env mkdir -p /home/ubuntu/capistrano/shared /home/ubuntu/capistrano/releases
+  INFO [1d2ad20e] Finished in 0.727 seconds with exit status 0 (successful).
+ DEBUG [932ce673] Running [ -f /home/ubuntu/capistrano/current/REVISION ] as ubuntu@35.164.113.129
+ DEBUG [932ce673] Command: [ -f /home/ubuntu/capistrano/current/REVISION ]
+ DEBUG [932ce673] Finished in 0.390 seconds with exit status 1 (failed).
+ DEBUG [dc74a248] Running [ -f /home/ubuntu/capistrano/repo/HEAD ] as ubuntu@35.164.113.129
+ DEBUG [dc74a248] Command: [ -f /home/ubuntu/capistrano/repo/HEAD ]
+ DEBUG [dc74a248] Finished in 0.390 seconds with exit status 1 (failed).
+ DEBUG [00e770ba] Running if test ! -d /home/ubuntu/capistrano; then echo "Directory does not exist '/home/ubuntu/capistrano'" 1>&2; false; fi as ubuntu@35.164.113.129
+ DEBUG [00e770ba] Command: if test ! -d /home/ubuntu/capistrano; then echo "Directory does not exist '/home/ubuntu/capistrano'" 1>&2; false; fi
+ DEBUG [00e770ba] Finished in 0.390 seconds with exit status 0 (successful).
+  INFO [330e13c7] Running /usr/bin/env git clone --mirror git@github.com:mannv/full-lumen.git /home/ubuntu/capistrano/repo as ubuntu@35.164.113.129
+ DEBUG [330e13c7] Command: cd /home/ubuntu/capistrano && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git clone --mirror git@github.com:mannv/full-lumen.git /home/ubuntu/capistrano/repo )
+ DEBUG [330e13c7] 	Cloning into bare repository '/home/ubuntu/capistrano/repo'...
+ DEBUG [330e13c7] 	Warning: Permanently added the RSA host key for IP address '192.30.253.112' to the list of known hosts.
+  INFO [330e13c7] Finished in 8.095 seconds with exit status 0 (successful).
+ DEBUG [cc31ae9f] Running if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi as ubuntu@35.164.113.129
+ DEBUG [cc31ae9f] Command: if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi
+ DEBUG [cc31ae9f] Finished in 1.347 seconds with exit status 0 (successful).
+  INFO [e083d481] Running /usr/bin/env git remote update --prune as ubuntu@35.164.113.129
+ DEBUG [e083d481] Command: cd /home/ubuntu/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [e083d481] 	Fetching origin
+  INFO [e083d481] Finished in 6.178 seconds with exit status 0 (successful).
+ DEBUG [f9e30d0e] Running if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi as ubuntu@35.164.113.129
+ DEBUG [f9e30d0e] Command: if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi
+ DEBUG [f9e30d0e] Finished in 0.390 seconds with exit status 0 (successful).
+  INFO [07b83dd3] Running /usr/bin/env mkdir -p /home/ubuntu/capistrano/releases/20161205022733 as ubuntu@35.164.113.129
+ DEBUG [07b83dd3] Command: cd /home/ubuntu/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env mkdir -p /home/ubuntu/capistrano/releases/20161205022733 )
+  INFO [07b83dd3] Finished in 0.476 seconds with exit status 0 (successful).
+  INFO [84fdd11c] Running /usr/bin/env git archive master | tar -x -f - -C /home/ubuntu/capistrano/releases/20161205022733 as ubuntu@35.164.113.129
+ DEBUG [84fdd11c] Command: cd /home/ubuntu/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git archive master | tar -x -f - -C /home/ubuntu/capistrano/releases/20161205022733 )
+  INFO [84fdd11c] Finished in 18.857 seconds with exit status 0 (successful).
+ DEBUG [bbff54d4] Running if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi as ubuntu@35.164.113.129
+ DEBUG [bbff54d4] Command: if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi
+ DEBUG [bbff54d4] Finished in 21.518 seconds with exit status 0 (successful).
+ DEBUG [400aeb81] Running /usr/bin/env git rev-list --max-count=1 master as ubuntu@35.164.113.129
+ DEBUG [400aeb81] Command: cd /home/ubuntu/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [400aeb81] 	b8abea8d6a44f125ed8a667eef7a68c043ca70ca
+ DEBUG [400aeb81] Finished in 9.698 seconds with exit status 0 (successful).
+ DEBUG [241006da] Running if test ! -d /home/ubuntu/capistrano/releases/20161205022733; then echo "Directory does not exist '/home/ubuntu/capistrano/releases/20161205022733'" 1>&2; false; fi as ubuntu@35.164.113.129
+ DEBUG [241006da] Command: if test ! -d /home/ubuntu/capistrano/releases/20161205022733; then echo "Directory does not exist '/home/ubuntu/capistrano/releases/20161205022733'" 1>&2; false; fi
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-05 02:43:11 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [8a7afa86] Running /usr/bin/env mkdir -p /tmp as ubuntu@35.162.2.237
+ DEBUG [8a7afa86] Command: /usr/bin/env mkdir -p /tmp
+  INFO [8a7afa86] Finished in 3.263 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-test-capistrano-production-.sh 0.0%
+  INFO Uploading /tmp/git-ssh-test-capistrano-production-.sh 100.0%
+  INFO [203661c8] Running /usr/bin/env chmod 700 /tmp/git-ssh-test-capistrano-production-.sh as ubuntu@35.162.2.237
+ DEBUG [203661c8] Command: /usr/bin/env chmod 700 /tmp/git-ssh-test-capistrano-production-.sh
+  INFO [203661c8] Finished in 0.446 seconds with exit status 0 (successful).
+  INFO [543612e0] Running /usr/bin/env git ls-remote --heads git@github.com:mannv/full-lumen.git as ubuntu@35.162.2.237
+ DEBUG [543612e0] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git ls-remote --heads git@github.com:mannv/full-lumen.git )
+ DEBUG [543612e0] 	Warning: Permanently added 'github.com,192.30.253.113' (RSA) to the list of known hosts.
+ DEBUG [543612e0] 	b8abea8d6a44f125ed8a667eef7a68c043ca70ca	refs/heads/master
+  INFO [543612e0] Finished in 1.748 seconds with exit status 0 (successful).
+  INFO [d0d5220e] Running /usr/bin/env mkdir -p /home/ubuntu/capistrano/shared /home/ubuntu/capistrano/releases as ubuntu@35.162.2.237
+ DEBUG [d0d5220e] Command: /usr/bin/env mkdir -p /home/ubuntu/capistrano/shared /home/ubuntu/capistrano/releases
+  INFO [d0d5220e] Finished in 0.447 seconds with exit status 0 (successful).
+ DEBUG [7d50ecee] Running [ -f /home/ubuntu/capistrano/current/REVISION ] as ubuntu@35.162.2.237
+ DEBUG [7d50ecee] Command: [ -f /home/ubuntu/capistrano/current/REVISION ]
+ DEBUG [7d50ecee] Finished in 0.445 seconds with exit status 1 (failed).
+ DEBUG [d9c71d3e] Running [ -f /home/ubuntu/capistrano/repo/HEAD ] as ubuntu@35.162.2.237
+ DEBUG [d9c71d3e] Command: [ -f /home/ubuntu/capistrano/repo/HEAD ]
+ DEBUG [d9c71d3e] Finished in 0.446 seconds with exit status 1 (failed).
+ DEBUG [e3c88490] Running if test ! -d /home/ubuntu/capistrano; then echo "Directory does not exist '/home/ubuntu/capistrano'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [e3c88490] Command: if test ! -d /home/ubuntu/capistrano; then echo "Directory does not exist '/home/ubuntu/capistrano'" 1>&2; false; fi
+ DEBUG [e3c88490] Finished in 0.445 seconds with exit status 0 (successful).
+  INFO [a31b485c] Running /usr/bin/env git clone --mirror git@github.com:mannv/full-lumen.git /home/ubuntu/capistrano/repo as ubuntu@35.162.2.237
+ DEBUG [a31b485c] Command: cd /home/ubuntu/capistrano && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git clone --mirror git@github.com:mannv/full-lumen.git /home/ubuntu/capistrano/repo )
+ DEBUG [a31b485c] 	Cloning into bare repository '/home/ubuntu/capistrano/repo'...
+ DEBUG [a31b485c] 	Warning: Permanently added the RSA host key for IP address '192.30.253.112' to the list of known hosts.
+  INFO [a31b485c] Finished in 2.298 seconds with exit status 0 (successful).
+ DEBUG [2e711ba6] Running if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [2e711ba6] Command: if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi
+ DEBUG [2e711ba6] Finished in 0.445 seconds with exit status 0 (successful).
+  INFO [8b8edcbb] Running /usr/bin/env git remote update --prune as ubuntu@35.162.2.237
+ DEBUG [8b8edcbb] Command: cd /home/ubuntu/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [8b8edcbb] 	Fetching origin
+  INFO [8b8edcbb] Finished in 1.726 seconds with exit status 0 (successful).
+ DEBUG [f71355fa] Running if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [f71355fa] Command: if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi
+ DEBUG [f71355fa] Finished in 0.446 seconds with exit status 0 (successful).
+  INFO [0b71cb92] Running /usr/bin/env mkdir -p /home/ubuntu/capistrano/releases/20161205024319 as ubuntu@35.162.2.237
+ DEBUG [0b71cb92] Command: cd /home/ubuntu/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env mkdir -p /home/ubuntu/capistrano/releases/20161205024319 )
+  INFO [0b71cb92] Finished in 0.447 seconds with exit status 0 (successful).
+  INFO [c4333e92] Running /usr/bin/env git archive master | tar -x -f - -C /home/ubuntu/capistrano/releases/20161205024319 as ubuntu@35.162.2.237
+ DEBUG [c4333e92] Command: cd /home/ubuntu/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git archive master | tar -x -f - -C /home/ubuntu/capistrano/releases/20161205024319 )
+  INFO [c4333e92] Finished in 0.703 seconds with exit status 0 (successful).
+ DEBUG [a9fe3e54] Running if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [a9fe3e54] Command: if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi
+ DEBUG [a9fe3e54] Finished in 0.445 seconds with exit status 0 (successful).
+ DEBUG [f042123e] Running /usr/bin/env git rev-list --max-count=1 master as ubuntu@35.162.2.237
+ DEBUG [f042123e] Command: cd /home/ubuntu/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [f042123e] 	b8abea8d6a44f125ed8a667eef7a68c043ca70ca
+ DEBUG [f042123e] Finished in 0.455 seconds with exit status 0 (successful).
+ DEBUG [2a4911c5] Running if test ! -d /home/ubuntu/capistrano/releases/20161205024319; then echo "Directory does not exist '/home/ubuntu/capistrano/releases/20161205024319'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [2a4911c5] Command: if test ! -d /home/ubuntu/capistrano/releases/20161205024319; then echo "Directory does not exist '/home/ubuntu/capistrano/releases/20161205024319'" 1>&2; false; fi
+ DEBUG [2a4911c5] Finished in 0.445 seconds with exit status 0 (successful).
+  INFO [3dc6a597] Running /usr/bin/env echo "b8abea8d6a44f125ed8a667eef7a68c043ca70ca" >> REVISION as ubuntu@35.162.2.237
+ DEBUG [3dc6a597] Command: cd /home/ubuntu/capistrano/releases/20161205024319 && /usr/bin/env echo "b8abea8d6a44f125ed8a667eef7a68c043ca70ca" >> REVISION
+  INFO [3dc6a597] Finished in 0.446 seconds with exit status 0 (successful).
+  INFO [0853bd24] Running /usr/bin/env ln -s /home/ubuntu/capistrano/releases/20161205024319 /home/ubuntu/capistrano/releases/current as ubuntu@35.162.2.237
+ DEBUG [0853bd24] Command: /usr/bin/env ln -s /home/ubuntu/capistrano/releases/20161205024319 /home/ubuntu/capistrano/releases/current
+  INFO [0853bd24] Finished in 0.445 seconds with exit status 0 (successful).
+  INFO [5377da9e] Running /usr/bin/env mv /home/ubuntu/capistrano/releases/current /home/ubuntu/capistrano as ubuntu@35.162.2.237
+ DEBUG [5377da9e] Command: /usr/bin/env mv /home/ubuntu/capistrano/releases/current /home/ubuntu/capistrano
+  INFO [5377da9e] Finished in 0.447 seconds with exit status 0 (successful).
+ DEBUG [0d9b29de] Running /usr/bin/env ls -xtr /home/ubuntu/capistrano/releases as ubuntu@35.162.2.237
+ DEBUG [0d9b29de] Command: /usr/bin/env ls -xtr /home/ubuntu/capistrano/releases
+ DEBUG [0d9b29de] 	20161205024319
+ DEBUG [0d9b29de] Finished in 0.452 seconds with exit status 0 (successful).
+ DEBUG [40b078d3] Running if test ! -d /home/ubuntu/capistrano/releases; then echo "Directory does not exist '/home/ubuntu/capistrano/releases'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [40b078d3] Command: if test ! -d /home/ubuntu/capistrano/releases; then echo "Directory does not exist '/home/ubuntu/capistrano/releases'" 1>&2; false; fi
+ DEBUG [40b078d3] Finished in 0.445 seconds with exit status 0 (successful).
+  INFO [49112ac3] Running /usr/bin/env echo "Branch master (at b8abea8d6a44f125ed8a667eef7a68c043ca70ca) deployed as release 20161205024319 by " >> /home/ubuntu/capistrano/revisions.log as ubuntu@35.162.2.237
+ DEBUG [49112ac3] Command: cd /home/ubuntu/capistrano/releases && /usr/bin/env echo "Branch master (at b8abea8d6a44f125ed8a667eef7a68c043ca70ca) deployed as release 20161205024319 by " >> /home/ubuntu/capistrano/revisions.log
+  INFO [49112ac3] Finished in 0.446 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-05 02:44:07 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [96232cad] Running /usr/bin/env mkdir -p /tmp as ubuntu@35.162.2.237
+ DEBUG [96232cad] Command: /usr/bin/env mkdir -p /tmp
+  INFO [a59bef4c] Running /usr/bin/env mkdir -p /tmp as ubuntu@54.255.133.66
+ DEBUG [a59bef4c] Command: /usr/bin/env mkdir -p /tmp
+  INFO [a59bef4c] Finished in 2.310 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-test-capistrano-production-.sh 0.0%
+  INFO Uploading /tmp/git-ssh-test-capistrano-production-.sh 100.0%
+  INFO [b65f3ba6] Running /usr/bin/env chmod 700 /tmp/git-ssh-test-capistrano-production-.sh as ubuntu@54.255.133.66
+  INFO [96232cad] Finished in 2.755 seconds with exit status 0 (successful).
+ DEBUG [b65f3ba6] Command: /usr/bin/env chmod 700 /tmp/git-ssh-test-capistrano-production-.sh
+  INFO [b65f3ba6] Finished in 0.128 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-test-capistrano-production-.sh 0.0%
+  INFO Uploading /tmp/git-ssh-test-capistrano-production-.sh 100.0%
+  INFO [56230cdf] Running /usr/bin/env chmod 700 /tmp/git-ssh-test-capistrano-production-.sh as ubuntu@35.162.2.237
+ DEBUG [56230cdf] Command: /usr/bin/env chmod 700 /tmp/git-ssh-test-capistrano-production-.sh
+  INFO [56230cdf] Finished in 0.447 seconds with exit status 0 (successful).
+  INFO [abad00d1] Running /usr/bin/env git ls-remote --heads git@github.com:mannv/full-lumen.git as ubuntu@35.162.2.237
+  INFO [e8fd3372] Running /usr/bin/env git ls-remote --heads git@github.com:mannv/full-lumen.git as ubuntu@54.255.133.66
+ DEBUG [e8fd3372] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git ls-remote --heads git@github.com:mannv/full-lumen.git )
+ DEBUG [abad00d1] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git ls-remote --heads git@github.com:mannv/full-lumen.git )
+ DEBUG [abad00d1] 	b8abea8d6a44f125ed8a667eef7a68c043ca70ca	refs/heads/master
+  INFO [abad00d1] Finished in 1.733 seconds with exit status 0 (successful).
+ DEBUG [e8fd3372] 	b8abea8d6a44f125ed8a667eef7a68c043ca70ca	refs/heads/master
+  INFO [e8fd3372] Finished in 3.167 seconds with exit status 0 (successful).
+  INFO [61be20dc] Running /usr/bin/env mkdir -p /home/ubuntu/capistrano/shared /home/ubuntu/capistrano/releases as ubuntu@35.162.2.237
+ DEBUG [61be20dc] Command: /usr/bin/env mkdir -p /home/ubuntu/capistrano/shared /home/ubuntu/capistrano/releases
+  INFO [677b4ba5] Running /usr/bin/env mkdir -p /home/ubuntu/capistrano/shared /home/ubuntu/capistrano/releases as ubuntu@54.255.133.66
+ DEBUG [677b4ba5] Command: /usr/bin/env mkdir -p /home/ubuntu/capistrano/shared /home/ubuntu/capistrano/releases
+  INFO [677b4ba5] Finished in 0.124 seconds with exit status 0 (successful).
+  INFO [61be20dc] Finished in 0.447 seconds with exit status 0 (successful).
+ DEBUG [e650b5de] Running [ -f /home/ubuntu/capistrano/current/REVISION ] as ubuntu@35.162.2.237
+ DEBUG [e650b5de] Command: [ -f /home/ubuntu/capistrano/current/REVISION ]
+ DEBUG [42f462e9] Running [ -f /home/ubuntu/capistrano/current/REVISION ] as ubuntu@54.255.133.66
+ DEBUG [42f462e9] Command: [ -f /home/ubuntu/capistrano/current/REVISION ]
+ DEBUG [42f462e9] Finished in 0.124 seconds with exit status 0 (successful).
+ DEBUG [56958075] Running /usr/bin/env cat /home/ubuntu/capistrano/current/REVISION 2>/dev/null as ubuntu@54.255.133.66
+ DEBUG [56958075] Command: /usr/bin/env cat /home/ubuntu/capistrano/current/REVISION 2>/dev/null
+ DEBUG [56958075] 	b8abea8d6a44f125ed8a667eef7a68c043ca70ca
+ DEBUG [56958075] Finished in 0.132 seconds with exit status 0 (successful).
+ DEBUG [e650b5de] Finished in 0.446 seconds with exit status 0 (successful).
+ DEBUG [fcf638a0] Running /usr/bin/env cat /home/ubuntu/capistrano/current/REVISION 2>/dev/null as ubuntu@35.162.2.237
+ DEBUG [fcf638a0] Command: /usr/bin/env cat /home/ubuntu/capistrano/current/REVISION 2>/dev/null
+ DEBUG [fcf638a0] 	b8abea8d6a44f125ed8a667eef7a68c043ca70ca
+ DEBUG [fcf638a0] Finished in 0.456 seconds with exit status 0 (successful).
+ DEBUG [04bd2c46] Running [ -f /home/ubuntu/capistrano/repo/HEAD ] as ubuntu@35.162.2.237
+ DEBUG [04bd2c46] Command: [ -f /home/ubuntu/capistrano/repo/HEAD ]
+ DEBUG [9fc20425] Running [ -f /home/ubuntu/capistrano/repo/HEAD ] as ubuntu@54.255.133.66
+ DEBUG [9fc20425] Command: [ -f /home/ubuntu/capistrano/repo/HEAD ]
+ DEBUG [9fc20425] Finished in 0.123 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/ubuntu/capistrano/repo
+ DEBUG [04bd2c46] Finished in 0.446 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/ubuntu/capistrano/repo
+ DEBUG [c9abeeb0] Running if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [c9abeeb0] Command: if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi
+ DEBUG [5f47c0cc] Running if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi as ubuntu@54.255.133.66
+ DEBUG [5f47c0cc] Command: if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi
+ DEBUG [5f47c0cc] Finished in 0.123 seconds with exit status 0 (successful).
+  INFO [18dbcba5] Running /usr/bin/env git remote update --prune as ubuntu@54.255.133.66
+ DEBUG [18dbcba5] Command: cd /home/ubuntu/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [18dbcba5] 	Fetching origin
+ DEBUG [c9abeeb0] Finished in 0.445 seconds with exit status 0 (successful).
+  INFO [f20cd648] Running /usr/bin/env git remote update --prune as ubuntu@35.162.2.237
+ DEBUG [f20cd648] Command: cd /home/ubuntu/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [f20cd648] 	Fetching origin
+  INFO [f20cd648] Finished in 1.513 seconds with exit status 0 (successful).
+  INFO [18dbcba5] Finished in 3.083 seconds with exit status 0 (successful).
+ DEBUG [c555ee2e] Running if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [c555ee2e] Command: if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi
+ DEBUG [209730c2] Running if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi as ubuntu@54.255.133.66
+ DEBUG [209730c2] Command: if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi
+ DEBUG [209730c2] Finished in 0.149 seconds with exit status 0 (successful).
+  INFO [9458677e] Running /usr/bin/env mkdir -p /home/ubuntu/capistrano/releases/20161205024416 as ubuntu@54.255.133.66
+ DEBUG [9458677e] Command: cd /home/ubuntu/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env mkdir -p /home/ubuntu/capistrano/releases/20161205024416 )
+  INFO [9458677e] Finished in 0.125 seconds with exit status 0 (successful).
+  INFO [db66e548] Running /usr/bin/env git archive master | tar -x -f - -C /home/ubuntu/capistrano/releases/20161205024416 as ubuntu@54.255.133.66
+ DEBUG [db66e548] Command: cd /home/ubuntu/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git archive master | tar -x -f - -C /home/ubuntu/capistrano/releases/20161205024416 )
+ DEBUG [c555ee2e] Finished in 0.446 seconds with exit status 0 (successful).
+  INFO [befe3969] Running /usr/bin/env mkdir -p /home/ubuntu/capistrano/releases/20161205024416 as ubuntu@35.162.2.237
+ DEBUG [befe3969] Command: cd /home/ubuntu/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env mkdir -p /home/ubuntu/capistrano/releases/20161205024416 )
+  INFO [db66e548] Finished in 0.370 seconds with exit status 0 (successful).
+  INFO [befe3969] Finished in 0.447 seconds with exit status 0 (successful).
+  INFO [c7e3443d] Running /usr/bin/env git archive master | tar -x -f - -C /home/ubuntu/capistrano/releases/20161205024416 as ubuntu@35.162.2.237
+ DEBUG [c7e3443d] Command: cd /home/ubuntu/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git archive master | tar -x -f - -C /home/ubuntu/capistrano/releases/20161205024416 )
+  INFO [c7e3443d] Finished in 0.684 seconds with exit status 0 (successful).
+ DEBUG [59de9767] Running if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [59de9767] Command: if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi
+ DEBUG [eeaa07ef] Running if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi as ubuntu@54.255.133.66
+ DEBUG [eeaa07ef] Command: if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi
+ DEBUG [eeaa07ef] Finished in 0.130 seconds with exit status 0 (successful).
+ DEBUG [8b36fd9d] Running /usr/bin/env git rev-list --max-count=1 master as ubuntu@54.255.133.66
+ DEBUG [8b36fd9d] Command: cd /home/ubuntu/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [8b36fd9d] 	b8abea8d6a44f125ed8a667eef7a68c043ca70ca
+ DEBUG [8b36fd9d] Finished in 0.133 seconds with exit status 0 (successful).
+ DEBUG [59de9767] Finished in 0.446 seconds with exit status 0 (successful).
+ DEBUG [de7f6313] Running /usr/bin/env git rev-list --max-count=1 master as ubuntu@35.162.2.237
+ DEBUG [de7f6313] Command: cd /home/ubuntu/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [de7f6313] 	b8abea8d6a44f125ed8a667eef7a68c043ca70ca
+ DEBUG [de7f6313] Finished in 0.455 seconds with exit status 0 (successful).
+ DEBUG [3fdb4b1a] Running if test ! -d /home/ubuntu/capistrano/releases/20161205024416; then echo "Directory does not exist '/home/ubuntu/capistrano/releases/20161205024416'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [3fdb4b1a] Command: if test ! -d /home/ubuntu/capistrano/releases/20161205024416; then echo "Directory does not exist '/home/ubuntu/capistrano/releases/20161205024416'" 1>&2; false; fi
+ DEBUG [4186c132] Running if test ! -d /home/ubuntu/capistrano/releases/20161205024416; then echo "Directory does not exist '/home/ubuntu/capistrano/releases/20161205024416'" 1>&2; false; fi as ubuntu@54.255.133.66
+ DEBUG [4186c132] Command: if test ! -d /home/ubuntu/capistrano/releases/20161205024416; then echo "Directory does not exist '/home/ubuntu/capistrano/releases/20161205024416'" 1>&2; false; fi
+ DEBUG [4186c132] Finished in 0.124 seconds with exit status 0 (successful).
+  INFO [d6ada521] Running /usr/bin/env echo "b8abea8d6a44f125ed8a667eef7a68c043ca70ca" >> REVISION as ubuntu@54.255.133.66
+ DEBUG [d6ada521] Command: cd /home/ubuntu/capistrano/releases/20161205024416 && /usr/bin/env echo "b8abea8d6a44f125ed8a667eef7a68c043ca70ca" >> REVISION
+  INFO [d6ada521] Finished in 0.124 seconds with exit status 0 (successful).
+ DEBUG [3fdb4b1a] Finished in 0.446 seconds with exit status 0 (successful).
+  INFO [dcf9643e] Running /usr/bin/env echo "b8abea8d6a44f125ed8a667eef7a68c043ca70ca" >> REVISION as ubuntu@35.162.2.237
+ DEBUG [dcf9643e] Command: cd /home/ubuntu/capistrano/releases/20161205024416 && /usr/bin/env echo "b8abea8d6a44f125ed8a667eef7a68c043ca70ca" >> REVISION
+  INFO [dcf9643e] Finished in 1.754 seconds with exit status 0 (successful).
+  INFO [7cb8b16b] Running /usr/bin/env ln -s /home/ubuntu/capistrano/releases/20161205024416 /home/ubuntu/capistrano/releases/current as ubuntu@35.162.2.237
+ DEBUG [7cb8b16b] Command: /usr/bin/env ln -s /home/ubuntu/capistrano/releases/20161205024416 /home/ubuntu/capistrano/releases/current
+  INFO [b9c33b29] Running /usr/bin/env ln -s /home/ubuntu/capistrano/releases/20161205024416 /home/ubuntu/capistrano/releases/current as ubuntu@54.255.133.66
+ DEBUG [b9c33b29] Command: /usr/bin/env ln -s /home/ubuntu/capistrano/releases/20161205024416 /home/ubuntu/capistrano/releases/current
+  INFO [b9c33b29] Finished in 0.125 seconds with exit status 0 (successful).
+  INFO [c9321908] Running /usr/bin/env mv /home/ubuntu/capistrano/releases/current /home/ubuntu/capistrano as ubuntu@54.255.133.66
+ DEBUG [c9321908] Command: /usr/bin/env mv /home/ubuntu/capistrano/releases/current /home/ubuntu/capistrano
+  INFO [c9321908] Finished in 0.125 seconds with exit status 0 (successful).
+  INFO [7cb8b16b] Finished in 0.446 seconds with exit status 0 (successful).
+  INFO [e6d03155] Running /usr/bin/env mv /home/ubuntu/capistrano/releases/current /home/ubuntu/capistrano as ubuntu@35.162.2.237
+ DEBUG [e6d03155] Command: /usr/bin/env mv /home/ubuntu/capistrano/releases/current /home/ubuntu/capistrano
+  INFO [e6d03155] Finished in 0.448 seconds with exit status 0 (successful).
+ DEBUG [9eca78be] Running /usr/bin/env ls -xtr /home/ubuntu/capistrano/releases as ubuntu@35.162.2.237
+ DEBUG [9eca78be] Command: /usr/bin/env ls -xtr /home/ubuntu/capistrano/releases
+ DEBUG [bedb2823] Running /usr/bin/env ls -xtr /home/ubuntu/capistrano/releases as ubuntu@54.255.133.66
+ DEBUG [bedb2823] Command: /usr/bin/env ls -xtr /home/ubuntu/capistrano/releases
+ DEBUG [bedb2823] 	20161205022326	20161205022413	20161205024416
+ DEBUG [bedb2823] Finished in 0.133 seconds with exit status 0 (successful).
+ DEBUG [9eca78be] 	20161205024319	20161205024416
+ DEBUG [9eca78be] Finished in 0.454 seconds with exit status 0 (successful).
+ DEBUG [81f1beb6] Running if test ! -d /home/ubuntu/capistrano/releases; then echo "Directory does not exist '/home/ubuntu/capistrano/releases'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [81f1beb6] Command: if test ! -d /home/ubuntu/capistrano/releases; then echo "Directory does not exist '/home/ubuntu/capistrano/releases'" 1>&2; false; fi
+ DEBUG [b82538f7] Running if test ! -d /home/ubuntu/capistrano/releases; then echo "Directory does not exist '/home/ubuntu/capistrano/releases'" 1>&2; false; fi as ubuntu@54.255.133.66
+ DEBUG [b82538f7] Command: if test ! -d /home/ubuntu/capistrano/releases; then echo "Directory does not exist '/home/ubuntu/capistrano/releases'" 1>&2; false; fi
+ DEBUG [b82538f7] Finished in 0.123 seconds with exit status 0 (successful).
+  INFO [b1d4870a] Running /usr/bin/env echo "Branch master (at b8abea8d6a44f125ed8a667eef7a68c043ca70ca) deployed as release 20161205024416 by " >> /home/ubuntu/capistrano/revisions.log as ubuntu@54.255.133.66
+ DEBUG [b1d4870a] Command: cd /home/ubuntu/capistrano/releases && /usr/bin/env echo "Branch master (at b8abea8d6a44f125ed8a667eef7a68c043ca70ca) deployed as release 20161205024416 by " >> /home/ubuntu/capistrano/revisions.log
+  INFO [b1d4870a] Finished in 0.125 seconds with exit status 0 (successful).
+ DEBUG [81f1beb6] Finished in 0.446 seconds with exit status 0 (successful).
+  INFO [0f34c115] Running /usr/bin/env echo "Branch master (at b8abea8d6a44f125ed8a667eef7a68c043ca70ca) deployed as release 20161205024416 by " >> /home/ubuntu/capistrano/revisions.log as ubuntu@35.162.2.237
+ DEBUG [0f34c115] Command: cd /home/ubuntu/capistrano/releases && /usr/bin/env echo "Branch master (at b8abea8d6a44f125ed8a667eef7a68c043ca70ca) deployed as release 20161205024416 by " >> /home/ubuntu/capistrano/revisions.log
+  INFO [0f34c115] Finished in 0.447 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-05 02:45:15 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [a6c769b1] Running /usr/bin/env mkdir -p /tmp as ubuntu@35.162.2.237
+ DEBUG [a6c769b1] Command: /usr/bin/env mkdir -p /tmp
+  INFO [9a276b07] Running /usr/bin/env mkdir -p /tmp as ubuntu@54.255.133.66
+ DEBUG [9a276b07] Command: /usr/bin/env mkdir -p /tmp
+  INFO [9a276b07] Finished in 2.872 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-test-capistrano-production-.sh 0.0%
+  INFO Uploading /tmp/git-ssh-test-capistrano-production-.sh 100.0%
+  INFO [a6c769b1] Finished in 3.209 seconds with exit status 0 (successful).
+  INFO [7f5540ca] Running /usr/bin/env chmod 700 /tmp/git-ssh-test-capistrano-production-.sh as ubuntu@54.255.133.66
+ DEBUG [7f5540ca] Command: /usr/bin/env chmod 700 /tmp/git-ssh-test-capistrano-production-.sh
+  INFO [7f5540ca] Finished in 0.129 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-test-capistrano-production-.sh 0.0%
+  INFO Uploading /tmp/git-ssh-test-capistrano-production-.sh 100.0%
+  INFO [75cf5979] Running /usr/bin/env chmod 700 /tmp/git-ssh-test-capistrano-production-.sh as ubuntu@35.162.2.237
+ DEBUG [75cf5979] Command: /usr/bin/env chmod 700 /tmp/git-ssh-test-capistrano-production-.sh
+  INFO [75cf5979] Finished in 0.447 seconds with exit status 0 (successful).
+  INFO [9b23c91a] Running /usr/bin/env git ls-remote --heads git@github.com:mannv/full-lumen.git as ubuntu@35.162.2.237
+  INFO [00a50c4a] Running /usr/bin/env git ls-remote --heads git@github.com:mannv/full-lumen.git as ubuntu@54.255.133.66
+ DEBUG [00a50c4a] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git ls-remote --heads git@github.com:mannv/full-lumen.git )
+ DEBUG [9b23c91a] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git ls-remote --heads git@github.com:mannv/full-lumen.git )
+ DEBUG [9b23c91a] 	b8abea8d6a44f125ed8a667eef7a68c043ca70ca	refs/heads/master
+  INFO [9b23c91a] Finished in 1.538 seconds with exit status 0 (successful).
+ DEBUG [00a50c4a] 	b8abea8d6a44f125ed8a667eef7a68c043ca70ca	refs/heads/master
+  INFO [00a50c4a] Finished in 3.180 seconds with exit status 0 (successful).
+  INFO [0586fd7f] Running /usr/bin/env mkdir -p /home/ubuntu/capistrano/shared /home/ubuntu/capistrano/releases as ubuntu@35.162.2.237
+ DEBUG [0586fd7f] Command: /usr/bin/env mkdir -p /home/ubuntu/capistrano/shared /home/ubuntu/capistrano/releases
+  INFO [23c5ab96] Running /usr/bin/env mkdir -p /home/ubuntu/capistrano/shared /home/ubuntu/capistrano/releases as ubuntu@54.255.133.66
+ DEBUG [23c5ab96] Command: /usr/bin/env mkdir -p /home/ubuntu/capistrano/shared /home/ubuntu/capistrano/releases
+  INFO [23c5ab96] Finished in 0.130 seconds with exit status 0 (successful).
+  INFO [0586fd7f] Finished in 0.448 seconds with exit status 0 (successful).
+ DEBUG [ce22ae27] Running [ -f /home/ubuntu/capistrano/current/REVISION ] as ubuntu@35.162.2.237
+ DEBUG [ce22ae27] Command: [ -f /home/ubuntu/capistrano/current/REVISION ]
+ DEBUG [5418c214] Running [ -f /home/ubuntu/capistrano/current/REVISION ] as ubuntu@54.255.133.66
+ DEBUG [5418c214] Command: [ -f /home/ubuntu/capistrano/current/REVISION ]
+ DEBUG [5418c214] Finished in 0.127 seconds with exit status 0 (successful).
+ DEBUG [2beae5f5] Running /usr/bin/env cat /home/ubuntu/capistrano/current/REVISION 2>/dev/null as ubuntu@54.255.133.66
+ DEBUG [2beae5f5] Command: /usr/bin/env cat /home/ubuntu/capistrano/current/REVISION 2>/dev/null
+ DEBUG [2beae5f5] 	b8abea8d6a44f125ed8a667eef7a68c043ca70ca
+ DEBUG [2beae5f5] Finished in 0.136 seconds with exit status 0 (successful).
+ DEBUG [ce22ae27] Finished in 0.446 seconds with exit status 0 (successful).
+ DEBUG [4c1e7f79] Running /usr/bin/env cat /home/ubuntu/capistrano/current/REVISION 2>/dev/null as ubuntu@35.162.2.237
+ DEBUG [4c1e7f79] Command: /usr/bin/env cat /home/ubuntu/capistrano/current/REVISION 2>/dev/null
+ DEBUG [4c1e7f79] 	b8abea8d6a44f125ed8a667eef7a68c043ca70ca
+ DEBUG [4c1e7f79] Finished in 0.455 seconds with exit status 0 (successful).
+ DEBUG [06bd41f2] Running [ -f /home/ubuntu/capistrano/repo/HEAD ] as ubuntu@35.162.2.237
+ DEBUG [06bd41f2] Command: [ -f /home/ubuntu/capistrano/repo/HEAD ]
+ DEBUG [88a0eb26] Running [ -f /home/ubuntu/capistrano/repo/HEAD ] as ubuntu@54.255.133.66
+ DEBUG [88a0eb26] Command: [ -f /home/ubuntu/capistrano/repo/HEAD ]
+ DEBUG [88a0eb26] Finished in 0.128 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/ubuntu/capistrano/repo
+ DEBUG [06bd41f2] Finished in 0.447 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/ubuntu/capistrano/repo
+ DEBUG [55fb08ff] Running if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [55fb08ff] Command: if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi
+ DEBUG [2bf6d912] Running if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi as ubuntu@54.255.133.66
+ DEBUG [2bf6d912] Command: if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi
+ DEBUG [2bf6d912] Finished in 0.128 seconds with exit status 0 (successful).
+  INFO [4d4dd3ea] Running /usr/bin/env git remote update --prune as ubuntu@54.255.133.66
+ DEBUG [4d4dd3ea] Command: cd /home/ubuntu/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [4d4dd3ea] 	Fetching origin
+ DEBUG [55fb08ff] Finished in 0.447 seconds with exit status 0 (successful).
+  INFO [39a1a9cf] Running /usr/bin/env git remote update --prune as ubuntu@35.162.2.237
+ DEBUG [39a1a9cf] Command: cd /home/ubuntu/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [39a1a9cf] 	Fetching origin
+  INFO [39a1a9cf] Finished in 1.439 seconds with exit status 0 (successful).
+  INFO [4d4dd3ea] Finished in 3.272 seconds with exit status 0 (successful).
+ DEBUG [db1e9ea5] Running if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [db1e9ea5] Command: if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi
+ DEBUG [820ecf1f] Running if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi as ubuntu@54.255.133.66
+ DEBUG [820ecf1f] Command: if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi
+ DEBUG [820ecf1f] Finished in 0.126 seconds with exit status 0 (successful).
+  INFO [e6ec9e61] Running /usr/bin/env mkdir -p /home/ubuntu/capistrano/releases/20161205024525 as ubuntu@54.255.133.66
+ DEBUG [e6ec9e61] Command: cd /home/ubuntu/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env mkdir -p /home/ubuntu/capistrano/releases/20161205024525 )
+  INFO [e6ec9e61] Finished in 0.129 seconds with exit status 0 (successful).
+  INFO [e649270d] Running /usr/bin/env git archive master | tar -x -f - -C /home/ubuntu/capistrano/releases/20161205024525 as ubuntu@54.255.133.66
+ DEBUG [e649270d] Command: cd /home/ubuntu/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git archive master | tar -x -f - -C /home/ubuntu/capistrano/releases/20161205024525 )
+ DEBUG [db1e9ea5] Finished in 0.447 seconds with exit status 0 (successful).
+  INFO [310099e0] Running /usr/bin/env mkdir -p /home/ubuntu/capistrano/releases/20161205024525 as ubuntu@35.162.2.237
+ DEBUG [310099e0] Command: cd /home/ubuntu/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env mkdir -p /home/ubuntu/capistrano/releases/20161205024525 )
+  INFO [e649270d] Finished in 0.366 seconds with exit status 0 (successful).
+  INFO [310099e0] Finished in 0.449 seconds with exit status 0 (successful).
+  INFO [6220c0dd] Running /usr/bin/env git archive master | tar -x -f - -C /home/ubuntu/capistrano/releases/20161205024525 as ubuntu@35.162.2.237
+ DEBUG [6220c0dd] Command: cd /home/ubuntu/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git archive master | tar -x -f - -C /home/ubuntu/capistrano/releases/20161205024525 )
+  INFO [6220c0dd] Finished in 0.687 seconds with exit status 0 (successful).
+ DEBUG [c94695b8] Running if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [c94695b8] Command: if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi
+ DEBUG [d461da0e] Running if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi as ubuntu@54.255.133.66
+ DEBUG [d461da0e] Command: if test ! -d /home/ubuntu/capistrano/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/repo'" 1>&2; false; fi
+ DEBUG [d461da0e] Finished in 0.127 seconds with exit status 0 (successful).
+ DEBUG [4c89eff6] Running /usr/bin/env git rev-list --max-count=1 master as ubuntu@54.255.133.66
+ DEBUG [4c89eff6] Command: cd /home/ubuntu/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [4c89eff6] 	b8abea8d6a44f125ed8a667eef7a68c043ca70ca
+ DEBUG [4c89eff6] Finished in 0.138 seconds with exit status 0 (successful).
+ DEBUG [c94695b8] Finished in 0.448 seconds with exit status 0 (successful).
+ DEBUG [dc351f3a] Running /usr/bin/env git rev-list --max-count=1 master as ubuntu@35.162.2.237
+ DEBUG [dc351f3a] Command: cd /home/ubuntu/capistrano/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [dc351f3a] 	b8abea8d6a44f125ed8a667eef7a68c043ca70ca
+ DEBUG [dc351f3a] Finished in 0.457 seconds with exit status 0 (successful).
+ DEBUG [fa4bc22a] Running if test ! -d /home/ubuntu/capistrano/releases/20161205024525; then echo "Directory does not exist '/home/ubuntu/capistrano/releases/20161205024525'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [fa4bc22a] Command: if test ! -d /home/ubuntu/capistrano/releases/20161205024525; then echo "Directory does not exist '/home/ubuntu/capistrano/releases/20161205024525'" 1>&2; false; fi
+ DEBUG [ec7abed5] Running if test ! -d /home/ubuntu/capistrano/releases/20161205024525; then echo "Directory does not exist '/home/ubuntu/capistrano/releases/20161205024525'" 1>&2; false; fi as ubuntu@54.255.133.66
+ DEBUG [ec7abed5] Command: if test ! -d /home/ubuntu/capistrano/releases/20161205024525; then echo "Directory does not exist '/home/ubuntu/capistrano/releases/20161205024525'" 1>&2; false; fi
+ DEBUG [ec7abed5] Finished in 0.143 seconds with exit status 0 (successful).
+  INFO [9a491264] Running /usr/bin/env echo "b8abea8d6a44f125ed8a667eef7a68c043ca70ca" >> REVISION as ubuntu@54.255.133.66
+ DEBUG [9a491264] Command: cd /home/ubuntu/capistrano/releases/20161205024525 && /usr/bin/env echo "b8abea8d6a44f125ed8a667eef7a68c043ca70ca" >> REVISION
+  INFO [9a491264] Finished in 0.137 seconds with exit status 0 (successful).
+ DEBUG [fa4bc22a] Finished in 0.448 seconds with exit status 0 (successful).
+  INFO [d5ecc554] Running /usr/bin/env echo "b8abea8d6a44f125ed8a667eef7a68c043ca70ca" >> REVISION as ubuntu@35.162.2.237
+ DEBUG [d5ecc554] Command: cd /home/ubuntu/capistrano/releases/20161205024525 && /usr/bin/env echo "b8abea8d6a44f125ed8a667eef7a68c043ca70ca" >> REVISION
+  INFO [d5ecc554] Finished in 0.449 seconds with exit status 0 (successful).
+  INFO [6df5bca6] Running /usr/bin/env ln -s /home/ubuntu/capistrano/releases/20161205024525 /home/ubuntu/capistrano/releases/current as ubuntu@35.162.2.237
+ DEBUG [6df5bca6] Command: /usr/bin/env ln -s /home/ubuntu/capistrano/releases/20161205024525 /home/ubuntu/capistrano/releases/current
+  INFO [94138257] Running /usr/bin/env ln -s /home/ubuntu/capistrano/releases/20161205024525 /home/ubuntu/capistrano/releases/current as ubuntu@54.255.133.66
+ DEBUG [94138257] Command: /usr/bin/env ln -s /home/ubuntu/capistrano/releases/20161205024525 /home/ubuntu/capistrano/releases/current
+  INFO [94138257] Finished in 0.128 seconds with exit status 0 (successful).
+  INFO [f3db3cc9] Running /usr/bin/env mv /home/ubuntu/capistrano/releases/current /home/ubuntu/capistrano as ubuntu@54.255.133.66
+ DEBUG [f3db3cc9] Command: /usr/bin/env mv /home/ubuntu/capistrano/releases/current /home/ubuntu/capistrano
+  INFO [f3db3cc9] Finished in 0.136 seconds with exit status 0 (successful).
+  INFO [6df5bca6] Finished in 0.452 seconds with exit status 0 (successful).
+  INFO [65570505] Running /usr/bin/env mv /home/ubuntu/capistrano/releases/current /home/ubuntu/capistrano as ubuntu@35.162.2.237
+ DEBUG [65570505] Command: /usr/bin/env mv /home/ubuntu/capistrano/releases/current /home/ubuntu/capistrano
+  INFO [65570505] Finished in 0.448 seconds with exit status 0 (successful).
+ DEBUG [b9a176d9] Running /usr/bin/env ls -xtr /home/ubuntu/capistrano/releases as ubuntu@35.162.2.237
+ DEBUG [b9a176d9] Command: /usr/bin/env ls -xtr /home/ubuntu/capistrano/releases
+ DEBUG [eb554051] Running /usr/bin/env ls -xtr /home/ubuntu/capistrano/releases as ubuntu@54.255.133.66
+ DEBUG [eb554051] Command: /usr/bin/env ls -xtr /home/ubuntu/capistrano/releases
+ DEBUG [eb554051] 	20161205022326	20161205022413	20161205024416	20161205024525
+ DEBUG [eb554051] Finished in 0.136 seconds with exit status 0 (successful).
+ DEBUG [b9a176d9] 	20161205024319	20161205024416	20161205024525
+ DEBUG [b9a176d9] Finished in 0.456 seconds with exit status 0 (successful).
+ DEBUG [3a1e4963] Running if test ! -d /home/ubuntu/capistrano/releases; then echo "Directory does not exist '/home/ubuntu/capistrano/releases'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [3a1e4963] Command: if test ! -d /home/ubuntu/capistrano/releases; then echo "Directory does not exist '/home/ubuntu/capistrano/releases'" 1>&2; false; fi
+ DEBUG [088b00c1] Running if test ! -d /home/ubuntu/capistrano/releases; then echo "Directory does not exist '/home/ubuntu/capistrano/releases'" 1>&2; false; fi as ubuntu@54.255.133.66
+ DEBUG [088b00c1] Command: if test ! -d /home/ubuntu/capistrano/releases; then echo "Directory does not exist '/home/ubuntu/capistrano/releases'" 1>&2; false; fi
+ DEBUG [088b00c1] Finished in 0.128 seconds with exit status 0 (successful).
+  INFO [66493a3a] Running /usr/bin/env echo "Branch master (at b8abea8d6a44f125ed8a667eef7a68c043ca70ca) deployed as release 20161205024525 by " >> /home/ubuntu/capistrano/revisions.log as ubuntu@54.255.133.66
+ DEBUG [66493a3a] Command: cd /home/ubuntu/capistrano/releases && /usr/bin/env echo "Branch master (at b8abea8d6a44f125ed8a667eef7a68c043ca70ca) deployed as release 20161205024525 by " >> /home/ubuntu/capistrano/revisions.log
+  INFO [66493a3a] Finished in 0.129 seconds with exit status 0 (successful).
+ DEBUG [3a1e4963] Finished in 0.451 seconds with exit status 0 (successful).
+  INFO [5a8e9eae] Running /usr/bin/env echo "Branch master (at b8abea8d6a44f125ed8a667eef7a68c043ca70ca) deployed as release 20161205024525 by " >> /home/ubuntu/capistrano/revisions.log as ubuntu@35.162.2.237
+ DEBUG [5a8e9eae] Command: cd /home/ubuntu/capistrano/releases && /usr/bin/env echo "Branch master (at b8abea8d6a44f125ed8a667eef7a68c043ca70ca) deployed as release 20161205024525 by " >> /home/ubuntu/capistrano/revisions.log
+  INFO [5a8e9eae] Finished in 0.448 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-05 03:02:35 +0000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [1fd632eb] Running /usr/bin/env mkdir -p /tmp as ubuntu@35.162.2.237
+ DEBUG [1fd632eb] Command: /usr/bin/env mkdir -p /tmp
+  INFO [1fd632eb] Finished in 3.379 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-test-capistrano-staging-.sh 0.0%
+  INFO Uploading /tmp/git-ssh-test-capistrano-staging-.sh 100.0%
+  INFO [ac0fe51e] Running /usr/bin/env chmod 700 /tmp/git-ssh-test-capistrano-staging-.sh as ubuntu@35.162.2.237
+ DEBUG [ac0fe51e] Command: /usr/bin/env chmod 700 /tmp/git-ssh-test-capistrano-staging-.sh
+  INFO [ac0fe51e] Finished in 0.447 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-05 03:05:46 +0000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [27e815ba] Running /usr/bin/env mkdir -p /tmp as ubuntu@35.162.2.237
+ DEBUG [27e815ba] Command: /usr/bin/env mkdir -p /tmp
+  INFO [27e815ba] Finished in 2.723 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-test-capistrano-staging-.sh 0.0%
+  INFO Uploading /tmp/git-ssh-test-capistrano-staging-.sh 100.0%
+  INFO [2dad102e] Running /usr/bin/env chmod 700 /tmp/git-ssh-test-capistrano-staging-.sh as ubuntu@35.162.2.237
+ DEBUG [2dad102e] Command: /usr/bin/env chmod 700 /tmp/git-ssh-test-capistrano-staging-.sh
+  INFO [2dad102e] Finished in 0.447 seconds with exit status 0 (successful).
+  INFO [e254d5d6] Running /usr/bin/env git ls-remote --heads git@github.com:mannv/full-lumen.git as ubuntu@35.162.2.237
+ DEBUG [e254d5d6] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-staging-.sh" ; /usr/bin/env git ls-remote --heads git@github.com:mannv/full-lumen.git )
+ DEBUG [e254d5d6] 	46b433e281c2c8ebb5f995c2481f49fd7a9fbccd	refs/heads/develop
+b8abea8d6a44f125ed8a667eef7a68c043ca70ca	refs/heads/master
+  INFO [e254d5d6] Finished in 1.631 seconds with exit status 0 (successful).
+  INFO [d0288c54] Running /usr/bin/env mkdir -p /home/ubuntu/capistrano/staging/shared /home/ubuntu/capistrano/staging/releases as ubuntu@35.162.2.237
+ DEBUG [d0288c54] Command: /usr/bin/env mkdir -p /home/ubuntu/capistrano/staging/shared /home/ubuntu/capistrano/staging/releases
+  INFO [d0288c54] Finished in 0.448 seconds with exit status 0 (successful).
+ DEBUG [a726bbe4] Running [ -f /home/ubuntu/capistrano/staging/current/REVISION ] as ubuntu@35.162.2.237
+ DEBUG [a726bbe4] Command: [ -f /home/ubuntu/capistrano/staging/current/REVISION ]
+ DEBUG [a726bbe4] Finished in 0.446 seconds with exit status 1 (failed).
+ DEBUG [4a7aa7e0] Running [ -f /home/ubuntu/capistrano/staging/repo/HEAD ] as ubuntu@35.162.2.237
+ DEBUG [4a7aa7e0] Command: [ -f /home/ubuntu/capistrano/staging/repo/HEAD ]
+ DEBUG [4a7aa7e0] Finished in 0.446 seconds with exit status 1 (failed).
+ DEBUG [b7d2523b] Running if test ! -d /home/ubuntu/capistrano/staging; then echo "Directory does not exist '/home/ubuntu/capistrano/staging'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [b7d2523b] Command: if test ! -d /home/ubuntu/capistrano/staging; then echo "Directory does not exist '/home/ubuntu/capistrano/staging'" 1>&2; false; fi
+ DEBUG [b7d2523b] Finished in 0.446 seconds with exit status 0 (successful).
+  INFO [6c6d7fdc] Running /usr/bin/env git clone --mirror git@github.com:mannv/full-lumen.git /home/ubuntu/capistrano/staging/repo as ubuntu@35.162.2.237
+ DEBUG [6c6d7fdc] Command: cd /home/ubuntu/capistrano/staging && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-staging-.sh" ; /usr/bin/env git clone --mirror git@github.com:mannv/full-lumen.git /home/ubuntu/capistrano/staging/repo )
+ DEBUG [6c6d7fdc] 	Cloning into bare repository '/home/ubuntu/capistrano/staging/repo'...
+  INFO [6c6d7fdc] Finished in 2.381 seconds with exit status 0 (successful).
+ DEBUG [980e4462] Running if test ! -d /home/ubuntu/capistrano/staging/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/staging/repo'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [980e4462] Command: if test ! -d /home/ubuntu/capistrano/staging/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/staging/repo'" 1>&2; false; fi
+ DEBUG [980e4462] Finished in 0.446 seconds with exit status 0 (successful).
+  INFO [41e396c7] Running /usr/bin/env git remote update --prune as ubuntu@35.162.2.237
+ DEBUG [41e396c7] Command: cd /home/ubuntu/capistrano/staging/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-staging-.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [41e396c7] 	Fetching origin
+  INFO [41e396c7] Finished in 1.627 seconds with exit status 0 (successful).
+ DEBUG [e767b0a2] Running if test ! -d /home/ubuntu/capistrano/staging/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/staging/repo'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [e767b0a2] Command: if test ! -d /home/ubuntu/capistrano/staging/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/staging/repo'" 1>&2; false; fi
+ DEBUG [e767b0a2] Finished in 0.446 seconds with exit status 0 (successful).
+  INFO [b427b316] Running /usr/bin/env mkdir -p /home/ubuntu/capistrano/staging/releases/20161205030553 as ubuntu@35.162.2.237
+ DEBUG [b427b316] Command: cd /home/ubuntu/capistrano/staging/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-staging-.sh" ; /usr/bin/env mkdir -p /home/ubuntu/capistrano/staging/releases/20161205030553 )
+  INFO [b427b316] Finished in 0.448 seconds with exit status 0 (successful).
+  INFO [0d65a1e2] Running /usr/bin/env git archive develop | tar -x -f - -C /home/ubuntu/capistrano/staging/releases/20161205030553 as ubuntu@35.162.2.237
+ DEBUG [0d65a1e2] Command: cd /home/ubuntu/capistrano/staging/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-staging-.sh" ; /usr/bin/env git archive develop | tar -x -f - -C /home/ubuntu/capistrano/staging/releases/20161205030553 )
+  INFO [0d65a1e2] Finished in 0.684 seconds with exit status 0 (successful).
+ DEBUG [ad1907d5] Running if test ! -d /home/ubuntu/capistrano/staging/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/staging/repo'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [ad1907d5] Command: if test ! -d /home/ubuntu/capistrano/staging/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/staging/repo'" 1>&2; false; fi
+ DEBUG [ad1907d5] Finished in 0.446 seconds with exit status 0 (successful).
+ DEBUG [fc62586f] Running /usr/bin/env git rev-list --max-count=1 develop as ubuntu@35.162.2.237
+ DEBUG [fc62586f] Command: cd /home/ubuntu/capistrano/staging/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-staging-.sh" ; /usr/bin/env git rev-list --max-count=1 develop )
+ DEBUG [fc62586f] 	46b433e281c2c8ebb5f995c2481f49fd7a9fbccd
+ DEBUG [fc62586f] Finished in 0.458 seconds with exit status 0 (successful).
+ DEBUG [bd7c8cdf] Running if test ! -d /home/ubuntu/capistrano/staging/releases/20161205030553; then echo "Directory does not exist '/home/ubuntu/capistrano/staging/releases/20161205030553'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [bd7c8cdf] Command: if test ! -d /home/ubuntu/capistrano/staging/releases/20161205030553; then echo "Directory does not exist '/home/ubuntu/capistrano/staging/releases/20161205030553'" 1>&2; false; fi
+ DEBUG [bd7c8cdf] Finished in 0.446 seconds with exit status 0 (successful).
+  INFO [fca7edff] Running /usr/bin/env echo "46b433e281c2c8ebb5f995c2481f49fd7a9fbccd" >> REVISION as ubuntu@35.162.2.237
+ DEBUG [fca7edff] Command: cd /home/ubuntu/capistrano/staging/releases/20161205030553 && /usr/bin/env echo "46b433e281c2c8ebb5f995c2481f49fd7a9fbccd" >> REVISION
+  INFO [fca7edff] Finished in 0.613 seconds with exit status 0 (successful).
+  INFO [ff5c0d85] Running /usr/bin/env ln -s /home/ubuntu/capistrano/staging/releases/20161205030553 /home/ubuntu/capistrano/staging/releases/current as ubuntu@35.162.2.237
+ DEBUG [ff5c0d85] Command: /usr/bin/env ln -s /home/ubuntu/capistrano/staging/releases/20161205030553 /home/ubuntu/capistrano/staging/releases/current
+  INFO [ff5c0d85] Finished in 0.447 seconds with exit status 0 (successful).
+  INFO [40feaa5b] Running /usr/bin/env mv /home/ubuntu/capistrano/staging/releases/current /home/ubuntu/capistrano/staging as ubuntu@35.162.2.237
+ DEBUG [40feaa5b] Command: /usr/bin/env mv /home/ubuntu/capistrano/staging/releases/current /home/ubuntu/capistrano/staging
+  INFO [40feaa5b] Finished in 0.448 seconds with exit status 0 (successful).
+ DEBUG [2297ec28] Running /usr/bin/env ls -xtr /home/ubuntu/capistrano/staging/releases as ubuntu@35.162.2.237
+ DEBUG [2297ec28] Command: /usr/bin/env ls -xtr /home/ubuntu/capistrano/staging/releases
+ DEBUG [2297ec28] 	20161205030553
+ DEBUG [2297ec28] Finished in 0.454 seconds with exit status 0 (successful).
+ DEBUG [2da20346] Running if test ! -d /home/ubuntu/capistrano/staging/releases; then echo "Directory does not exist '/home/ubuntu/capistrano/staging/releases'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [2da20346] Command: if test ! -d /home/ubuntu/capistrano/staging/releases; then echo "Directory does not exist '/home/ubuntu/capistrano/staging/releases'" 1>&2; false; fi
+ DEBUG [2da20346] Finished in 0.446 seconds with exit status 0 (successful).
+  INFO [39fc513f] Running /usr/bin/env echo "Branch develop (at 46b433e281c2c8ebb5f995c2481f49fd7a9fbccd) deployed as release 20161205030553 by " >> /home/ubuntu/capistrano/staging/revisions.log as ubuntu@35.162.2.237
+ DEBUG [39fc513f] Command: cd /home/ubuntu/capistrano/staging/releases && /usr/bin/env echo "Branch develop (at 46b433e281c2c8ebb5f995c2481f49fd7a9fbccd) deployed as release 20161205030553 by " >> /home/ubuntu/capistrano/staging/revisions.log
+  INFO [39fc513f] Finished in 0.448 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-05 03:07:00 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [e304e125] Running /usr/bin/env mkdir -p /tmp as ubuntu@35.162.2.237
+ DEBUG [e304e125] Command: /usr/bin/env mkdir -p /tmp
+  INFO [e304e125] Finished in 3.159 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-test-capistrano-production-.sh 0.0%
+  INFO Uploading /tmp/git-ssh-test-capistrano-production-.sh 100.0%
+  INFO [49e7b7d4] Running /usr/bin/env chmod 700 /tmp/git-ssh-test-capistrano-production-.sh as ubuntu@35.162.2.237
+ DEBUG [49e7b7d4] Command: /usr/bin/env chmod 700 /tmp/git-ssh-test-capistrano-production-.sh
+  INFO [49e7b7d4] Finished in 0.444 seconds with exit status 0 (successful).
+  INFO [494a8aa6] Running /usr/bin/env git ls-remote --heads git@github.com:mannv/full-lumen.git as ubuntu@35.162.2.237
+ DEBUG [494a8aa6] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git ls-remote --heads git@github.com:mannv/full-lumen.git )
+ DEBUG [494a8aa6] 	46b433e281c2c8ebb5f995c2481f49fd7a9fbccd	refs/heads/develop
+b8abea8d6a44f125ed8a667eef7a68c043ca70ca	refs/heads/master
+  INFO [494a8aa6] Finished in 1.541 seconds with exit status 0 (successful).
+  INFO [d9da9450] Running /usr/bin/env mkdir -p /home/ubuntu/capistrano/prod/shared /home/ubuntu/capistrano/prod/releases as ubuntu@35.162.2.237
+ DEBUG [d9da9450] Command: /usr/bin/env mkdir -p /home/ubuntu/capistrano/prod/shared /home/ubuntu/capistrano/prod/releases
+  INFO [d9da9450] Finished in 0.445 seconds with exit status 0 (successful).
+ DEBUG [6f554baf] Running [ -f /home/ubuntu/capistrano/prod/current/REVISION ] as ubuntu@35.162.2.237
+ DEBUG [6f554baf] Command: [ -f /home/ubuntu/capistrano/prod/current/REVISION ]
+ DEBUG [6f554baf] Finished in 0.444 seconds with exit status 1 (failed).
+ DEBUG [9532da5d] Running [ -f /home/ubuntu/capistrano/prod/repo/HEAD ] as ubuntu@35.162.2.237
+ DEBUG [9532da5d] Command: [ -f /home/ubuntu/capistrano/prod/repo/HEAD ]
+ DEBUG [9532da5d] Finished in 0.445 seconds with exit status 1 (failed).
+ DEBUG [3e8c9690] Running if test ! -d /home/ubuntu/capistrano/prod; then echo "Directory does not exist '/home/ubuntu/capistrano/prod'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [3e8c9690] Command: if test ! -d /home/ubuntu/capistrano/prod; then echo "Directory does not exist '/home/ubuntu/capistrano/prod'" 1>&2; false; fi
+ DEBUG [3e8c9690] Finished in 0.444 seconds with exit status 0 (successful).
+  INFO [05529242] Running /usr/bin/env git clone --mirror git@github.com:mannv/full-lumen.git /home/ubuntu/capistrano/prod/repo as ubuntu@35.162.2.237
+ DEBUG [05529242] Command: cd /home/ubuntu/capistrano/prod && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git clone --mirror git@github.com:mannv/full-lumen.git /home/ubuntu/capistrano/prod/repo )
+ DEBUG [05529242] 	Cloning into bare repository '/home/ubuntu/capistrano/prod/repo'...
+  INFO [05529242] Finished in 3.091 seconds with exit status 0 (successful).
+ DEBUG [6faa5053] Running if test ! -d /home/ubuntu/capistrano/prod/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/repo'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [6faa5053] Command: if test ! -d /home/ubuntu/capistrano/prod/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/repo'" 1>&2; false; fi
+ DEBUG [6faa5053] Finished in 0.445 seconds with exit status 0 (successful).
+  INFO [b34c14a4] Running /usr/bin/env git remote update --prune as ubuntu@35.162.2.237
+ DEBUG [b34c14a4] Command: cd /home/ubuntu/capistrano/prod/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [b34c14a4] 	Fetching origin
+  INFO [b34c14a4] Finished in 1.526 seconds with exit status 0 (successful).
+ DEBUG [26f9786c] Running if test ! -d /home/ubuntu/capistrano/prod/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/repo'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [26f9786c] Command: if test ! -d /home/ubuntu/capistrano/prod/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/repo'" 1>&2; false; fi
+ DEBUG [26f9786c] Finished in 0.447 seconds with exit status 0 (successful).
+  INFO [f8aa81c4] Running /usr/bin/env mkdir -p /home/ubuntu/capistrano/prod/releases/20161205030707 as ubuntu@35.162.2.237
+ DEBUG [f8aa81c4] Command: cd /home/ubuntu/capistrano/prod/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env mkdir -p /home/ubuntu/capistrano/prod/releases/20161205030707 )
+  INFO [f8aa81c4] Finished in 0.448 seconds with exit status 0 (successful).
+  INFO [4f6952a9] Running /usr/bin/env git archive master | tar -x -f - -C /home/ubuntu/capistrano/prod/releases/20161205030707 as ubuntu@35.162.2.237
+ DEBUG [4f6952a9] Command: cd /home/ubuntu/capistrano/prod/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git archive master | tar -x -f - -C /home/ubuntu/capistrano/prod/releases/20161205030707 )
+  INFO [4f6952a9] Finished in 0.686 seconds with exit status 0 (successful).
+ DEBUG [e392d234] Running if test ! -d /home/ubuntu/capistrano/prod/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/repo'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [e392d234] Command: if test ! -d /home/ubuntu/capistrano/prod/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/repo'" 1>&2; false; fi
+ DEBUG [e392d234] Finished in 0.445 seconds with exit status 0 (successful).
+ DEBUG [09bd5e5f] Running /usr/bin/env git rev-list --max-count=1 master as ubuntu@35.162.2.237
+ DEBUG [09bd5e5f] Command: cd /home/ubuntu/capistrano/prod/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [09bd5e5f] 	b8abea8d6a44f125ed8a667eef7a68c043ca70ca
+ DEBUG [09bd5e5f] Finished in 0.453 seconds with exit status 0 (successful).
+ DEBUG [8dd244af] Running if test ! -d /home/ubuntu/capistrano/prod/releases/20161205030707; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/releases/20161205030707'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [8dd244af] Command: if test ! -d /home/ubuntu/capistrano/prod/releases/20161205030707; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/releases/20161205030707'" 1>&2; false; fi
+ DEBUG [8dd244af] Finished in 0.446 seconds with exit status 0 (successful).
+  INFO [6a57881d] Running /usr/bin/env echo "b8abea8d6a44f125ed8a667eef7a68c043ca70ca" >> REVISION as ubuntu@35.162.2.237
+ DEBUG [6a57881d] Command: cd /home/ubuntu/capistrano/prod/releases/20161205030707 && /usr/bin/env echo "b8abea8d6a44f125ed8a667eef7a68c043ca70ca" >> REVISION
+  INFO [6a57881d] Finished in 0.445 seconds with exit status 0 (successful).
+  INFO [ae51088f] Running /usr/bin/env ln -s /home/ubuntu/capistrano/prod/releases/20161205030707 /home/ubuntu/capistrano/prod/releases/current as ubuntu@35.162.2.237
+ DEBUG [ae51088f] Command: /usr/bin/env ln -s /home/ubuntu/capistrano/prod/releases/20161205030707 /home/ubuntu/capistrano/prod/releases/current
+  INFO [ae51088f] Finished in 0.444 seconds with exit status 0 (successful).
+  INFO [0d1df525] Running /usr/bin/env mv /home/ubuntu/capistrano/prod/releases/current /home/ubuntu/capistrano/prod as ubuntu@35.162.2.237
+ DEBUG [0d1df525] Command: /usr/bin/env mv /home/ubuntu/capistrano/prod/releases/current /home/ubuntu/capistrano/prod
+  INFO [0d1df525] Finished in 0.445 seconds with exit status 0 (successful).
+ DEBUG [e6cfb832] Running /usr/bin/env ls -xtr /home/ubuntu/capistrano/prod/releases as ubuntu@35.162.2.237
+ DEBUG [e6cfb832] Command: /usr/bin/env ls -xtr /home/ubuntu/capistrano/prod/releases
+ DEBUG [e6cfb832] 	20161205030707
+ DEBUG [e6cfb832] Finished in 0.453 seconds with exit status 0 (successful).
+ DEBUG [bb37d2cc] Running if test ! -d /home/ubuntu/capistrano/prod/releases; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/releases'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [bb37d2cc] Command: if test ! -d /home/ubuntu/capistrano/prod/releases; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/releases'" 1>&2; false; fi
+ DEBUG [bb37d2cc] Finished in 0.444 seconds with exit status 0 (successful).
+  INFO [c90263b1] Running /usr/bin/env echo "Branch master (at b8abea8d6a44f125ed8a667eef7a68c043ca70ca) deployed as release 20161205030707 by " >> /home/ubuntu/capistrano/prod/revisions.log as ubuntu@35.162.2.237
+ DEBUG [c90263b1] Command: cd /home/ubuntu/capistrano/prod/releases && /usr/bin/env echo "Branch master (at b8abea8d6a44f125ed8a667eef7a68c043ca70ca) deployed as release 20161205030707 by " >> /home/ubuntu/capistrano/prod/revisions.log
+  INFO [c90263b1] Finished in 0.446 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-05 03:08:59 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [41766af9] Running /usr/bin/env mkdir -p /tmp as ubuntu@35.162.2.237
+ DEBUG [41766af9] Command: /usr/bin/env mkdir -p /tmp
+  INFO [fe24f562] Running /usr/bin/env mkdir -p /tmp as ubuntu@54.255.133.66
+ DEBUG [fe24f562] Command: /usr/bin/env mkdir -p /tmp
+  INFO [fe24f562] Finished in 0.942 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-test-capistrano-production-.sh 0.0%
+  INFO Uploading /tmp/git-ssh-test-capistrano-production-.sh 100.0%
+  INFO [19d20932] Running /usr/bin/env chmod 700 /tmp/git-ssh-test-capistrano-production-.sh as ubuntu@54.255.133.66
+ DEBUG [19d20932] Command: /usr/bin/env chmod 700 /tmp/git-ssh-test-capistrano-production-.sh
+  INFO [19d20932] Finished in 0.125 seconds with exit status 0 (successful).
+  INFO [41766af9] Finished in 3.111 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-test-capistrano-production-.sh 0.0%
+  INFO Uploading /tmp/git-ssh-test-capistrano-production-.sh 100.0%
+  INFO [0c0bea3b] Running /usr/bin/env chmod 700 /tmp/git-ssh-test-capistrano-production-.sh as ubuntu@35.162.2.237
+ DEBUG [0c0bea3b] Command: /usr/bin/env chmod 700 /tmp/git-ssh-test-capistrano-production-.sh
+  INFO [0c0bea3b] Finished in 0.446 seconds with exit status 0 (successful).
+  INFO [3949fc89] Running /usr/bin/env git ls-remote --heads git@github.com:mannv/full-lumen.git as ubuntu@35.162.2.237
+  INFO [d2b221cd] Running /usr/bin/env git ls-remote --heads git@github.com:mannv/full-lumen.git as ubuntu@54.255.133.66
+ DEBUG [d2b221cd] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git ls-remote --heads git@github.com:mannv/full-lumen.git )
+ DEBUG [3949fc89] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git ls-remote --heads git@github.com:mannv/full-lumen.git )
+ DEBUG [3949fc89] 	46b433e281c2c8ebb5f995c2481f49fd7a9fbccd	refs/heads/develop
+b8abea8d6a44f125ed8a667eef7a68c043ca70ca	refs/heads/master
+  INFO [3949fc89] Finished in 1.696 seconds with exit status 0 (successful).
+ DEBUG [d2b221cd] 	46b433e281c2c8ebb5f995c2481f49fd7a9fbccd	refs/heads/develop
+b8abea8d6a44f125ed8a667eef7a68c043ca70ca	refs/heads/master
+  INFO [d2b221cd] Finished in 3.026 seconds with exit status 0 (successful).
+  INFO [48169ff2] Running /usr/bin/env mkdir -p /home/ubuntu/capistrano/prod/shared /home/ubuntu/capistrano/prod/releases as ubuntu@35.162.2.237
+ DEBUG [48169ff2] Command: /usr/bin/env mkdir -p /home/ubuntu/capistrano/prod/shared /home/ubuntu/capistrano/prod/releases
+  INFO [cc2d1477] Running /usr/bin/env mkdir -p /home/ubuntu/capistrano/prod/shared /home/ubuntu/capistrano/prod/releases as ubuntu@54.255.133.66
+ DEBUG [cc2d1477] Command: /usr/bin/env mkdir -p /home/ubuntu/capistrano/prod/shared /home/ubuntu/capistrano/prod/releases
+  INFO [cc2d1477] Finished in 0.127 seconds with exit status 0 (successful).
+  INFO [48169ff2] Finished in 0.447 seconds with exit status 0 (successful).
+ DEBUG [02447537] Running [ -f /home/ubuntu/capistrano/prod/current/REVISION ] as ubuntu@35.162.2.237
+ DEBUG [02447537] Command: [ -f /home/ubuntu/capistrano/prod/current/REVISION ]
+ DEBUG [10ee74b6] Running [ -f /home/ubuntu/capistrano/prod/current/REVISION ] as ubuntu@54.255.133.66
+ DEBUG [10ee74b6] Command: [ -f /home/ubuntu/capistrano/prod/current/REVISION ]
+ DEBUG [10ee74b6] Finished in 0.126 seconds with exit status 1 (failed).
+ DEBUG [02447537] Finished in 0.446 seconds with exit status 1 (failed).
+ DEBUG [943730e2] Running [ -f /home/ubuntu/capistrano/prod/repo/HEAD ] as ubuntu@35.162.2.237
+ DEBUG [943730e2] Command: [ -f /home/ubuntu/capistrano/prod/repo/HEAD ]
+ DEBUG [7f11c23e] Running [ -f /home/ubuntu/capistrano/prod/repo/HEAD ] as ubuntu@54.255.133.66
+ DEBUG [7f11c23e] Command: [ -f /home/ubuntu/capistrano/prod/repo/HEAD ]
+ DEBUG [7f11c23e] Finished in 0.124 seconds with exit status 1 (failed).
+ DEBUG [c4c639de] Running if test ! -d /home/ubuntu/capistrano/prod; then echo "Directory does not exist '/home/ubuntu/capistrano/prod'" 1>&2; false; fi as ubuntu@54.255.133.66
+ DEBUG [c4c639de] Command: if test ! -d /home/ubuntu/capistrano/prod; then echo "Directory does not exist '/home/ubuntu/capistrano/prod'" 1>&2; false; fi
+ DEBUG [c4c639de] Finished in 0.125 seconds with exit status 0 (successful).
+  INFO [8fafff48] Running /usr/bin/env git clone --mirror git@github.com:mannv/full-lumen.git /home/ubuntu/capistrano/prod/repo as ubuntu@54.255.133.66
+ DEBUG [8fafff48] Command: cd /home/ubuntu/capistrano/prod && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git clone --mirror git@github.com:mannv/full-lumen.git /home/ubuntu/capistrano/prod/repo )
+ DEBUG [8fafff48] 	Cloning into bare repository '/home/ubuntu/capistrano/prod/repo'...
+ DEBUG [943730e2] Finished in 0.445 seconds with exit status 1 (failed).
+ DEBUG [697e8737] Running if test ! -d /home/ubuntu/capistrano/prod; then echo "Directory does not exist '/home/ubuntu/capistrano/prod'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [697e8737] Command: if test ! -d /home/ubuntu/capistrano/prod; then echo "Directory does not exist '/home/ubuntu/capistrano/prod'" 1>&2; false; fi
+ DEBUG [697e8737] Finished in 0.447 seconds with exit status 0 (successful).
+  INFO [78cddcc2] Running /usr/bin/env git clone --mirror git@github.com:mannv/full-lumen.git /home/ubuntu/capistrano/prod/repo as ubuntu@35.162.2.237
+ DEBUG [78cddcc2] Command: cd /home/ubuntu/capistrano/prod && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git clone --mirror git@github.com:mannv/full-lumen.git /home/ubuntu/capistrano/prod/repo )
+ DEBUG [78cddcc2] 	Cloning into bare repository '/home/ubuntu/capistrano/prod/repo'...
+  INFO [78cddcc2] Finished in 2.661 seconds with exit status 0 (successful).
+  INFO [8fafff48] Finished in 7.851 seconds with exit status 0 (successful).
+ DEBUG [1b863152] Running if test ! -d /home/ubuntu/capistrano/prod/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/repo'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [1b863152] Command: if test ! -d /home/ubuntu/capistrano/prod/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/repo'" 1>&2; false; fi
+ DEBUG [3712b30a] Running if test ! -d /home/ubuntu/capistrano/prod/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/repo'" 1>&2; false; fi as ubuntu@54.255.133.66
+ DEBUG [3712b30a] Command: if test ! -d /home/ubuntu/capistrano/prod/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/repo'" 1>&2; false; fi
+ DEBUG [3712b30a] Finished in 0.132 seconds with exit status 0 (successful).
+  INFO [e08e7a6c] Running /usr/bin/env git remote update --prune as ubuntu@54.255.133.66
+ DEBUG [e08e7a6c] Command: cd /home/ubuntu/capistrano/prod/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [e08e7a6c] 	Fetching origin
+ DEBUG [1b863152] Finished in 0.457 seconds with exit status 0 (successful).
+  INFO [008a97c0] Running /usr/bin/env git remote update --prune as ubuntu@35.162.2.237
+ DEBUG [008a97c0] Command: cd /home/ubuntu/capistrano/prod/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [008a97c0] 	Fetching origin
+  INFO [008a97c0] Finished in 1.719 seconds with exit status 0 (successful).
+  INFO [e08e7a6c] Finished in 3.350 seconds with exit status 0 (successful).
+ DEBUG [8bbb0b51] Running if test ! -d /home/ubuntu/capistrano/prod/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/repo'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [8bbb0b51] Command: if test ! -d /home/ubuntu/capistrano/prod/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/repo'" 1>&2; false; fi
+ DEBUG [3fb593a1] Running if test ! -d /home/ubuntu/capistrano/prod/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/repo'" 1>&2; false; fi as ubuntu@54.255.133.66
+ DEBUG [3fb593a1] Command: if test ! -d /home/ubuntu/capistrano/prod/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/repo'" 1>&2; false; fi
+ DEBUG [3fb593a1] Finished in 0.134 seconds with exit status 0 (successful).
+  INFO [f743aaab] Running /usr/bin/env mkdir -p /home/ubuntu/capistrano/prod/releases/20161205030908 as ubuntu@54.255.133.66
+ DEBUG [f743aaab] Command: cd /home/ubuntu/capistrano/prod/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env mkdir -p /home/ubuntu/capistrano/prod/releases/20161205030908 )
+  INFO [f743aaab] Finished in 0.133 seconds with exit status 0 (successful).
+  INFO [c38684ac] Running /usr/bin/env git archive master | tar -x -f - -C /home/ubuntu/capistrano/prod/releases/20161205030908 as ubuntu@54.255.133.66
+ DEBUG [c38684ac] Command: cd /home/ubuntu/capistrano/prod/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git archive master | tar -x -f - -C /home/ubuntu/capistrano/prod/releases/20161205030908 )
+ DEBUG [8bbb0b51] Finished in 0.456 seconds with exit status 0 (successful).
+  INFO [7b51ab3e] Running /usr/bin/env mkdir -p /home/ubuntu/capistrano/prod/releases/20161205030908 as ubuntu@35.162.2.237
+ DEBUG [7b51ab3e] Command: cd /home/ubuntu/capistrano/prod/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env mkdir -p /home/ubuntu/capistrano/prod/releases/20161205030908 )
+  INFO [c38684ac] Finished in 0.373 seconds with exit status 0 (successful).
+  INFO [7b51ab3e] Finished in 0.460 seconds with exit status 0 (successful).
+  INFO [2e8c60dd] Running /usr/bin/env git archive master | tar -x -f - -C /home/ubuntu/capistrano/prod/releases/20161205030908 as ubuntu@35.162.2.237
+ DEBUG [2e8c60dd] Command: cd /home/ubuntu/capistrano/prod/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git archive master | tar -x -f - -C /home/ubuntu/capistrano/prod/releases/20161205030908 )
+  INFO [2e8c60dd] Finished in 0.698 seconds with exit status 0 (successful).
+ DEBUG [697981e0] Running if test ! -d /home/ubuntu/capistrano/prod/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/repo'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [697981e0] Command: if test ! -d /home/ubuntu/capistrano/prod/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/repo'" 1>&2; false; fi
+ DEBUG [33d9a32c] Running if test ! -d /home/ubuntu/capistrano/prod/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/repo'" 1>&2; false; fi as ubuntu@54.255.133.66
+ DEBUG [33d9a32c] Command: if test ! -d /home/ubuntu/capistrano/prod/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/repo'" 1>&2; false; fi
+ DEBUG [33d9a32c] Finished in 0.186 seconds with exit status 0 (successful).
+ DEBUG [6b74dd04] Running /usr/bin/env git rev-list --max-count=1 master as ubuntu@54.255.133.66
+ DEBUG [6b74dd04] Command: cd /home/ubuntu/capistrano/prod/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [6b74dd04] 	b8abea8d6a44f125ed8a667eef7a68c043ca70ca
+ DEBUG [6b74dd04] Finished in 0.142 seconds with exit status 0 (successful).
+ DEBUG [697981e0] Finished in 0.459 seconds with exit status 0 (successful).
+ DEBUG [6dc2725a] Running /usr/bin/env git rev-list --max-count=1 master as ubuntu@35.162.2.237
+ DEBUG [6dc2725a] Command: cd /home/ubuntu/capistrano/prod/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [6dc2725a] 	b8abea8d6a44f125ed8a667eef7a68c043ca70ca
+ DEBUG [6dc2725a] Finished in 0.465 seconds with exit status 0 (successful).
+ DEBUG [f83c28a7] Running if test ! -d /home/ubuntu/capistrano/prod/releases/20161205030908; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/releases/20161205030908'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [f83c28a7] Command: if test ! -d /home/ubuntu/capistrano/prod/releases/20161205030908; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/releases/20161205030908'" 1>&2; false; fi
+ DEBUG [83abc180] Running if test ! -d /home/ubuntu/capistrano/prod/releases/20161205030908; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/releases/20161205030908'" 1>&2; false; fi as ubuntu@54.255.133.66
+ DEBUG [83abc180] Command: if test ! -d /home/ubuntu/capistrano/prod/releases/20161205030908; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/releases/20161205030908'" 1>&2; false; fi
+ DEBUG [83abc180] Finished in 0.133 seconds with exit status 0 (successful).
+  INFO [35b9a7a6] Running /usr/bin/env echo "b8abea8d6a44f125ed8a667eef7a68c043ca70ca" >> REVISION as ubuntu@54.255.133.66
+ DEBUG [35b9a7a6] Command: cd /home/ubuntu/capistrano/prod/releases/20161205030908 && /usr/bin/env echo "b8abea8d6a44f125ed8a667eef7a68c043ca70ca" >> REVISION
+  INFO [35b9a7a6] Finished in 0.134 seconds with exit status 0 (successful).
+ DEBUG [f83c28a7] Finished in 0.455 seconds with exit status 0 (successful).
+  INFO [82375b2f] Running /usr/bin/env echo "b8abea8d6a44f125ed8a667eef7a68c043ca70ca" >> REVISION as ubuntu@35.162.2.237
+ DEBUG [82375b2f] Command: cd /home/ubuntu/capistrano/prod/releases/20161205030908 && /usr/bin/env echo "b8abea8d6a44f125ed8a667eef7a68c043ca70ca" >> REVISION
+  INFO [82375b2f] Finished in 0.869 seconds with exit status 0 (successful).
+  INFO [810961fd] Running /usr/bin/env ln -s /home/ubuntu/capistrano/prod/releases/20161205030908 /home/ubuntu/capistrano/prod/releases/current as ubuntu@35.162.2.237
+ DEBUG [810961fd] Command: /usr/bin/env ln -s /home/ubuntu/capistrano/prod/releases/20161205030908 /home/ubuntu/capistrano/prod/releases/current
+  INFO [89f1c3fc] Running /usr/bin/env ln -s /home/ubuntu/capistrano/prod/releases/20161205030908 /home/ubuntu/capistrano/prod/releases/current as ubuntu@54.255.133.66
+ DEBUG [89f1c3fc] Command: /usr/bin/env ln -s /home/ubuntu/capistrano/prod/releases/20161205030908 /home/ubuntu/capistrano/prod/releases/current
+  INFO [89f1c3fc] Finished in 0.134 seconds with exit status 0 (successful).
+  INFO [945d2a24] Running /usr/bin/env mv /home/ubuntu/capistrano/prod/releases/current /home/ubuntu/capistrano/prod as ubuntu@54.255.133.66
+ DEBUG [945d2a24] Command: /usr/bin/env mv /home/ubuntu/capistrano/prod/releases/current /home/ubuntu/capistrano/prod
+  INFO [945d2a24] Finished in 0.135 seconds with exit status 0 (successful).
+  INFO [810961fd] Finished in 0.456 seconds with exit status 0 (successful).
+  INFO [baf63846] Running /usr/bin/env mv /home/ubuntu/capistrano/prod/releases/current /home/ubuntu/capistrano/prod as ubuntu@35.162.2.237
+ DEBUG [baf63846] Command: /usr/bin/env mv /home/ubuntu/capistrano/prod/releases/current /home/ubuntu/capistrano/prod
+  INFO [baf63846] Finished in 0.456 seconds with exit status 0 (successful).
+ DEBUG [980b08d6] Running /usr/bin/env ls -xtr /home/ubuntu/capistrano/prod/releases as ubuntu@35.162.2.237
+ DEBUG [980b08d6] Command: /usr/bin/env ls -xtr /home/ubuntu/capistrano/prod/releases
+ DEBUG [1c365b9d] Running /usr/bin/env ls -xtr /home/ubuntu/capistrano/prod/releases as ubuntu@54.255.133.66
+ DEBUG [1c365b9d] Command: /usr/bin/env ls -xtr /home/ubuntu/capistrano/prod/releases
+ DEBUG [1c365b9d] 	20161205030908
+ DEBUG [1c365b9d] Finished in 0.143 seconds with exit status 0 (successful).
+ DEBUG [980b08d6] 	20161205030908
+ DEBUG [980b08d6] Finished in 0.455 seconds with exit status 0 (successful).
+ DEBUG [65fe8955] Running if test ! -d /home/ubuntu/capistrano/prod/releases; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/releases'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [65fe8955] Command: if test ! -d /home/ubuntu/capistrano/prod/releases; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/releases'" 1>&2; false; fi
+ DEBUG [72d2129c] Running if test ! -d /home/ubuntu/capistrano/prod/releases; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/releases'" 1>&2; false; fi as ubuntu@54.255.133.66
+ DEBUG [72d2129c] Command: if test ! -d /home/ubuntu/capistrano/prod/releases; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/releases'" 1>&2; false; fi
+ DEBUG [72d2129c] Finished in 0.139 seconds with exit status 0 (successful).
+  INFO [a4f2aa3d] Running /usr/bin/env echo "Branch master (at b8abea8d6a44f125ed8a667eef7a68c043ca70ca) deployed as release 20161205030908 by " >> /home/ubuntu/capistrano/prod/revisions.log as ubuntu@54.255.133.66
+ DEBUG [a4f2aa3d] Command: cd /home/ubuntu/capistrano/prod/releases && /usr/bin/env echo "Branch master (at b8abea8d6a44f125ed8a667eef7a68c043ca70ca) deployed as release 20161205030908 by " >> /home/ubuntu/capistrano/prod/revisions.log
+  INFO [a4f2aa3d] Finished in 0.135 seconds with exit status 0 (successful).
+ DEBUG [65fe8955] Finished in 0.451 seconds with exit status 0 (successful).
+  INFO [fce1f2b2] Running /usr/bin/env echo "Branch master (at b8abea8d6a44f125ed8a667eef7a68c043ca70ca) deployed as release 20161205030908 by " >> /home/ubuntu/capistrano/prod/revisions.log as ubuntu@35.162.2.237
+ DEBUG [fce1f2b2] Command: cd /home/ubuntu/capistrano/prod/releases && /usr/bin/env echo "Branch master (at b8abea8d6a44f125ed8a667eef7a68c043ca70ca) deployed as release 20161205030908 by " >> /home/ubuntu/capistrano/prod/revisions.log
+  INFO [fce1f2b2] Finished in 0.456 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-12-05 03:09:52 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [ffc0b8d0] Running /usr/bin/env mkdir -p /tmp as ubuntu@35.162.2.237
+ DEBUG [ffc0b8d0] Command: /usr/bin/env mkdir -p /tmp
+  INFO [8b5876d4] Running /usr/bin/env mkdir -p /tmp as ubuntu@54.255.133.66
+ DEBUG [8b5876d4] Command: /usr/bin/env mkdir -p /tmp
+  INFO [8b5876d4] Finished in 1.456 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-test-capistrano-production-.sh 0.0%
+  INFO Uploading /tmp/git-ssh-test-capistrano-production-.sh 100.0%
+  INFO [21edc83b] Running /usr/bin/env chmod 700 /tmp/git-ssh-test-capistrano-production-.sh as ubuntu@54.255.133.66
+ DEBUG [21edc83b] Command: /usr/bin/env chmod 700 /tmp/git-ssh-test-capistrano-production-.sh
+  INFO [21edc83b] Finished in 0.138 seconds with exit status 0 (successful).
+  INFO [ffc0b8d0] Finished in 2.807 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-test-capistrano-production-.sh 0.0%
+  INFO Uploading /tmp/git-ssh-test-capistrano-production-.sh 100.0%
+  INFO [2fb0dab9] Running /usr/bin/env chmod 700 /tmp/git-ssh-test-capistrano-production-.sh as ubuntu@35.162.2.237
+ DEBUG [2fb0dab9] Command: /usr/bin/env chmod 700 /tmp/git-ssh-test-capistrano-production-.sh
+  INFO [2fb0dab9] Finished in 0.464 seconds with exit status 0 (successful).
+  INFO [46f9ef13] Running /usr/bin/env git ls-remote --heads git@github.com:mannv/full-lumen.git as ubuntu@35.162.2.237
+  INFO [f552b189] Running /usr/bin/env git ls-remote --heads git@github.com:mannv/full-lumen.git as ubuntu@54.255.133.66
+ DEBUG [f552b189] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git ls-remote --heads git@github.com:mannv/full-lumen.git )
+ DEBUG [46f9ef13] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git ls-remote --heads git@github.com:mannv/full-lumen.git )
+ DEBUG [46f9ef13] 	46b433e281c2c8ebb5f995c2481f49fd7a9fbccd	refs/heads/develop
+b8abea8d6a44f125ed8a667eef7a68c043ca70ca	refs/heads/master
+  INFO [46f9ef13] Finished in 1.461 seconds with exit status 0 (successful).
+ DEBUG [f552b189] 	46b433e281c2c8ebb5f995c2481f49fd7a9fbccd	refs/heads/develop
+b8abea8d6a44f125ed8a667eef7a68c043ca70ca	refs/heads/master
+  INFO [f552b189] Finished in 3.169 seconds with exit status 0 (successful).
+  INFO [99afecb4] Running /usr/bin/env mkdir -p /home/ubuntu/capistrano/prod/shared /home/ubuntu/capistrano/prod/releases as ubuntu@35.162.2.237
+ DEBUG [99afecb4] Command: /usr/bin/env mkdir -p /home/ubuntu/capistrano/prod/shared /home/ubuntu/capistrano/prod/releases
+  INFO [71871a7b] Running /usr/bin/env mkdir -p /home/ubuntu/capistrano/prod/shared /home/ubuntu/capistrano/prod/releases as ubuntu@54.255.133.66
+ DEBUG [71871a7b] Command: /usr/bin/env mkdir -p /home/ubuntu/capistrano/prod/shared /home/ubuntu/capistrano/prod/releases
+  INFO [71871a7b] Finished in 0.134 seconds with exit status 0 (successful).
+  INFO [99afecb4] Finished in 0.463 seconds with exit status 0 (successful).
+ DEBUG [32ec8d61] Running [ -f /home/ubuntu/capistrano/prod/current/REVISION ] as ubuntu@35.162.2.237
+ DEBUG [32ec8d61] Command: [ -f /home/ubuntu/capistrano/prod/current/REVISION ]
+ DEBUG [d9f3ee89] Running [ -f /home/ubuntu/capistrano/prod/current/REVISION ] as ubuntu@54.255.133.66
+ DEBUG [d9f3ee89] Command: [ -f /home/ubuntu/capistrano/prod/current/REVISION ]
+ DEBUG [d9f3ee89] Finished in 0.138 seconds with exit status 0 (successful).
+ DEBUG [83d5e0e7] Running /usr/bin/env cat /home/ubuntu/capistrano/prod/current/REVISION 2>/dev/null as ubuntu@54.255.133.66
+ DEBUG [83d5e0e7] Command: /usr/bin/env cat /home/ubuntu/capistrano/prod/current/REVISION 2>/dev/null
+ DEBUG [83d5e0e7] 	b8abea8d6a44f125ed8a667eef7a68c043ca70ca
+ DEBUG [83d5e0e7] Finished in 0.146 seconds with exit status 0 (successful).
+ DEBUG [32ec8d61] Finished in 0.462 seconds with exit status 0 (successful).
+ DEBUG [df931797] Running /usr/bin/env cat /home/ubuntu/capistrano/prod/current/REVISION 2>/dev/null as ubuntu@35.162.2.237
+ DEBUG [df931797] Command: /usr/bin/env cat /home/ubuntu/capistrano/prod/current/REVISION 2>/dev/null
+ DEBUG [df931797] 	b8abea8d6a44f125ed8a667eef7a68c043ca70ca
+ DEBUG [df931797] Finished in 0.466 seconds with exit status 0 (successful).
+ DEBUG [b7eb2ad8] Running [ -f /home/ubuntu/capistrano/prod/repo/HEAD ] as ubuntu@35.162.2.237
+ DEBUG [b7eb2ad8] Command: [ -f /home/ubuntu/capistrano/prod/repo/HEAD ]
+ DEBUG [1761f1c5] Running [ -f /home/ubuntu/capistrano/prod/repo/HEAD ] as ubuntu@54.255.133.66
+ DEBUG [1761f1c5] Command: [ -f /home/ubuntu/capistrano/prod/repo/HEAD ]
+ DEBUG [1761f1c5] Finished in 0.128 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/ubuntu/capistrano/prod/repo
+ DEBUG [b7eb2ad8] Finished in 0.452 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/ubuntu/capistrano/prod/repo
+ DEBUG [8573d03a] Running if test ! -d /home/ubuntu/capistrano/prod/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/repo'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [8573d03a] Command: if test ! -d /home/ubuntu/capistrano/prod/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/repo'" 1>&2; false; fi
+ DEBUG [4e30d1c8] Running if test ! -d /home/ubuntu/capistrano/prod/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/repo'" 1>&2; false; fi as ubuntu@54.255.133.66
+ DEBUG [4e30d1c8] Command: if test ! -d /home/ubuntu/capistrano/prod/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/repo'" 1>&2; false; fi
+ DEBUG [4e30d1c8] Finished in 0.128 seconds with exit status 0 (successful).
+  INFO [9a7bd802] Running /usr/bin/env git remote update --prune as ubuntu@54.255.133.66
+ DEBUG [9a7bd802] Command: cd /home/ubuntu/capistrano/prod/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [9a7bd802] 	Fetching origin
+ DEBUG [8573d03a] Finished in 0.461 seconds with exit status 0 (successful).
+  INFO [d52f6f86] Running /usr/bin/env git remote update --prune as ubuntu@35.162.2.237
+ DEBUG [d52f6f86] Command: cd /home/ubuntu/capistrano/prod/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [d52f6f86] 	Fetching origin
+  INFO [d52f6f86] Finished in 3.485 seconds with exit status 0 (successful).
+  INFO [9a7bd802] Finished in 4.989 seconds with exit status 0 (successful).
+ DEBUG [3091f665] Running if test ! -d /home/ubuntu/capistrano/prod/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/repo'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [3091f665] Command: if test ! -d /home/ubuntu/capistrano/prod/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/repo'" 1>&2; false; fi
+ DEBUG [a0fc491f] Running if test ! -d /home/ubuntu/capistrano/prod/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/repo'" 1>&2; false; fi as ubuntu@54.255.133.66
+ DEBUG [a0fc491f] Command: if test ! -d /home/ubuntu/capistrano/prod/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/repo'" 1>&2; false; fi
+ DEBUG [a0fc491f] Finished in 0.138 seconds with exit status 0 (successful).
+  INFO [4b55e1cd] Running /usr/bin/env mkdir -p /home/ubuntu/capistrano/prod/releases/20161205031002 as ubuntu@54.255.133.66
+ DEBUG [4b55e1cd] Command: cd /home/ubuntu/capistrano/prod/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env mkdir -p /home/ubuntu/capistrano/prod/releases/20161205031002 )
+  INFO [4b55e1cd] Finished in 0.130 seconds with exit status 0 (successful).
+  INFO [ba669352] Running /usr/bin/env git archive master | tar -x -f - -C /home/ubuntu/capistrano/prod/releases/20161205031002 as ubuntu@54.255.133.66
+ DEBUG [ba669352] Command: cd /home/ubuntu/capistrano/prod/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git archive master | tar -x -f - -C /home/ubuntu/capistrano/prod/releases/20161205031002 )
+ DEBUG [3091f665] Finished in 0.452 seconds with exit status 0 (successful).
+  INFO [2a3e1849] Running /usr/bin/env mkdir -p /home/ubuntu/capistrano/prod/releases/20161205031002 as ubuntu@35.162.2.237
+ DEBUG [2a3e1849] Command: cd /home/ubuntu/capistrano/prod/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env mkdir -p /home/ubuntu/capistrano/prod/releases/20161205031002 )
+  INFO [ba669352] Finished in 0.370 seconds with exit status 0 (successful).
+  INFO [2a3e1849] Finished in 0.459 seconds with exit status 0 (successful).
+  INFO [34571b36] Running /usr/bin/env git archive master | tar -x -f - -C /home/ubuntu/capistrano/prod/releases/20161205031002 as ubuntu@35.162.2.237
+ DEBUG [34571b36] Command: cd /home/ubuntu/capistrano/prod/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git archive master | tar -x -f - -C /home/ubuntu/capistrano/prod/releases/20161205031002 )
+  INFO [34571b36] Finished in 0.692 seconds with exit status 0 (successful).
+ DEBUG [86859f5d] Running if test ! -d /home/ubuntu/capistrano/prod/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/repo'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [86859f5d] Command: if test ! -d /home/ubuntu/capistrano/prod/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/repo'" 1>&2; false; fi
+ DEBUG [ac1b4f01] Running if test ! -d /home/ubuntu/capistrano/prod/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/repo'" 1>&2; false; fi as ubuntu@54.255.133.66
+ DEBUG [ac1b4f01] Command: if test ! -d /home/ubuntu/capistrano/prod/repo; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/repo'" 1>&2; false; fi
+ DEBUG [ac1b4f01] Finished in 0.138 seconds with exit status 0 (successful).
+ DEBUG [790fdf9c] Running /usr/bin/env git rev-list --max-count=1 master as ubuntu@54.255.133.66
+ DEBUG [790fdf9c] Command: cd /home/ubuntu/capistrano/prod/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [790fdf9c] 	b8abea8d6a44f125ed8a667eef7a68c043ca70ca
+ DEBUG [790fdf9c] Finished in 0.145 seconds with exit status 0 (successful).
+ DEBUG [86859f5d] Finished in 0.466 seconds with exit status 0 (successful).
+ DEBUG [aa458d97] Running /usr/bin/env git rev-list --max-count=1 master as ubuntu@35.162.2.237
+ DEBUG [aa458d97] Command: cd /home/ubuntu/capistrano/prod/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-test-capistrano-production-.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [aa458d97] 	b8abea8d6a44f125ed8a667eef7a68c043ca70ca
+ DEBUG [aa458d97] Finished in 0.472 seconds with exit status 0 (successful).
+ DEBUG [37e8e55b] Running if test ! -d /home/ubuntu/capistrano/prod/releases/20161205031002; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/releases/20161205031002'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [37e8e55b] Command: if test ! -d /home/ubuntu/capistrano/prod/releases/20161205031002; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/releases/20161205031002'" 1>&2; false; fi
+ DEBUG [e378b656] Running if test ! -d /home/ubuntu/capistrano/prod/releases/20161205031002; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/releases/20161205031002'" 1>&2; false; fi as ubuntu@54.255.133.66
+ DEBUG [e378b656] Command: if test ! -d /home/ubuntu/capistrano/prod/releases/20161205031002; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/releases/20161205031002'" 1>&2; false; fi
+ DEBUG [e378b656] Finished in 0.138 seconds with exit status 0 (successful).
+  INFO [6bd18c4e] Running /usr/bin/env echo "b8abea8d6a44f125ed8a667eef7a68c043ca70ca" >> REVISION as ubuntu@54.255.133.66
+ DEBUG [6bd18c4e] Command: cd /home/ubuntu/capistrano/prod/releases/20161205031002 && /usr/bin/env echo "b8abea8d6a44f125ed8a667eef7a68c043ca70ca" >> REVISION
+  INFO [6bd18c4e] Finished in 0.139 seconds with exit status 0 (successful).
+ DEBUG [37e8e55b] Finished in 0.462 seconds with exit status 0 (successful).
+  INFO [ceac55e2] Running /usr/bin/env echo "b8abea8d6a44f125ed8a667eef7a68c043ca70ca" >> REVISION as ubuntu@35.162.2.237
+ DEBUG [ceac55e2] Command: cd /home/ubuntu/capistrano/prod/releases/20161205031002 && /usr/bin/env echo "b8abea8d6a44f125ed8a667eef7a68c043ca70ca" >> REVISION
+  INFO [ceac55e2] Finished in 0.463 seconds with exit status 0 (successful).
+  INFO [ecefdd36] Running /usr/bin/env ln -s /home/ubuntu/capistrano/prod/releases/20161205031002 /home/ubuntu/capistrano/prod/releases/current as ubuntu@35.162.2.237
+ DEBUG [ecefdd36] Command: /usr/bin/env ln -s /home/ubuntu/capistrano/prod/releases/20161205031002 /home/ubuntu/capistrano/prod/releases/current
+  INFO [89545c80] Running /usr/bin/env ln -s /home/ubuntu/capistrano/prod/releases/20161205031002 /home/ubuntu/capistrano/prod/releases/current as ubuntu@54.255.133.66
+ DEBUG [89545c80] Command: /usr/bin/env ln -s /home/ubuntu/capistrano/prod/releases/20161205031002 /home/ubuntu/capistrano/prod/releases/current
+  INFO [89545c80] Finished in 0.138 seconds with exit status 0 (successful).
+  INFO [16e714bd] Running /usr/bin/env mv /home/ubuntu/capistrano/prod/releases/current /home/ubuntu/capistrano/prod as ubuntu@54.255.133.66
+ DEBUG [16e714bd] Command: /usr/bin/env mv /home/ubuntu/capistrano/prod/releases/current /home/ubuntu/capistrano/prod
+  INFO [16e714bd] Finished in 0.139 seconds with exit status 0 (successful).
+  INFO [ecefdd36] Finished in 0.463 seconds with exit status 0 (successful).
+  INFO [709a6c09] Running /usr/bin/env mv /home/ubuntu/capistrano/prod/releases/current /home/ubuntu/capistrano/prod as ubuntu@35.162.2.237
+ DEBUG [709a6c09] Command: /usr/bin/env mv /home/ubuntu/capistrano/prod/releases/current /home/ubuntu/capistrano/prod
+  INFO [709a6c09] Finished in 0.462 seconds with exit status 0 (successful).
+ DEBUG [32db337c] Running /usr/bin/env ls -xtr /home/ubuntu/capistrano/prod/releases as ubuntu@35.162.2.237
+ DEBUG [32db337c] Command: /usr/bin/env ls -xtr /home/ubuntu/capistrano/prod/releases
+ DEBUG [42bba1f7] Running /usr/bin/env ls -xtr /home/ubuntu/capistrano/prod/releases as ubuntu@54.255.133.66
+ DEBUG [42bba1f7] Command: /usr/bin/env ls -xtr /home/ubuntu/capistrano/prod/releases
+ DEBUG [42bba1f7] 	20161205030908	20161205031002
+ DEBUG [42bba1f7] Finished in 0.147 seconds with exit status 0 (successful).
+ DEBUG [32db337c] 	20161205030908	20161205031002
+ DEBUG [32db337c] Finished in 0.471 seconds with exit status 0 (successful).
+ DEBUG [d9e4144f] Running if test ! -d /home/ubuntu/capistrano/prod/releases; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/releases'" 1>&2; false; fi as ubuntu@35.162.2.237
+ DEBUG [d9e4144f] Command: if test ! -d /home/ubuntu/capistrano/prod/releases; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/releases'" 1>&2; false; fi
+ DEBUG [286b7f15] Running if test ! -d /home/ubuntu/capistrano/prod/releases; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/releases'" 1>&2; false; fi as ubuntu@54.255.133.66
+ DEBUG [286b7f15] Command: if test ! -d /home/ubuntu/capistrano/prod/releases; then echo "Directory does not exist '/home/ubuntu/capistrano/prod/releases'" 1>&2; false; fi
+ DEBUG [286b7f15] Finished in 0.138 seconds with exit status 0 (successful).
+  INFO [1cbb5e9a] Running /usr/bin/env echo "Branch master (at b8abea8d6a44f125ed8a667eef7a68c043ca70ca) deployed as release 20161205031002 by " >> /home/ubuntu/capistrano/prod/revisions.log as ubuntu@54.255.133.66
+ DEBUG [1cbb5e9a] Command: cd /home/ubuntu/capistrano/prod/releases && /usr/bin/env echo "Branch master (at b8abea8d6a44f125ed8a667eef7a68c043ca70ca) deployed as release 20161205031002 by " >> /home/ubuntu/capistrano/prod/revisions.log
+  INFO [1cbb5e9a] Finished in 0.138 seconds with exit status 0 (successful).
+ DEBUG [d9e4144f] Finished in 0.462 seconds with exit status 0 (successful).
+  INFO [d963d001] Running /usr/bin/env echo "Branch master (at b8abea8d6a44f125ed8a667eef7a68c043ca70ca) deployed as release 20161205031002 by " >> /home/ubuntu/capistrano/prod/revisions.log as ubuntu@35.162.2.237
+ DEBUG [d963d001] Command: cd /home/ubuntu/capistrano/prod/releases && /usr/bin/env echo "Branch master (at b8abea8d6a44f125ed8a667eef7a68c043ca70ca) deployed as release 20161205031002 by " >> /home/ubuntu/capistrano/prod/revisions.log
+  INFO [d963d001] Finished in 0.462 seconds with exit status 0 (successful).
