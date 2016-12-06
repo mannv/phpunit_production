@@ -62,7 +62,7 @@
 
 set :deploy_to, '/home/ubuntu/capistrano/prod'
 set :branch, 'master'
-set :composer_install_flags, '--no-dev --no-interaction --quiet --optimize-autoloader'
+# set :composer_install_flags, '--no-dev --no-interaction --quiet --optimize-autoloader'
 
 # server '35.163.165.15',
 #   user: 'ubuntu',
