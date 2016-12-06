@@ -60,7 +60,7 @@
 #     # password: 'please use keys'
 #   }
 
-set :deploy_to, '/var/www/capistrano/prod'
+set :deploy_to, '/home/ubuntu/capistrano/prod'
 set :branch, 'master'
 # set :composer_install_flags, '--no-dev --no-interaction --quiet --optimize-autoloader'
 
