@@ -74,10 +74,10 @@ set :branch, 'master'
 #   }
 
 server '35.163.165.15',
-  user: 'root',
+  user: 'ubuntu',
   roles: %w{web app},
   ssh_options: {
-    user: 'root', # overrides user setting above
+    user: 'ubuntu', # overrides user setting above
     keys: %w(new_key_pair.pem),
     forward_agent: false
   }  
