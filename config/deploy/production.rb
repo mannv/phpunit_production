@@ -64,7 +64,7 @@ set :deploy_to, '/home/ubuntu/capistrano/prod'
 set :branch, 'master'
 # set :composer_install_flags, '--no-dev --no-interaction --quiet --optimize-autoloader'
 
-server '35.163.165.15',
+server '54.255.133.66',
   user: 'ubuntu',
   roles: %w{web app},
   ssh_options: {
@@ -73,14 +73,14 @@ server '35.163.165.15',
     forward_agent: false
   }
 
-# server '35.165.3.50',
-#   user: 'ubuntu',
-#   roles: %w{web app},
-#   ssh_options: {
-#     user: 'ubuntu', # overrides user setting above
-#     keys: %w(new_key_pair.pem),
-#     forward_agent: false
-#   }  
+server '35.165.3.50',
+  user: 'ubuntu',
+  roles: %w{web app},
+  ssh_options: {
+    user: 'ubuntu', # overrides user setting above
+    keys: %w(new_key_pair.pem),
+    forward_agent: false
+  }  
 
 namespace :deploy do
     desc 'Print The Server Name'
