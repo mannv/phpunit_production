@@ -81,3 +81,14 @@ server '35.163.165.15',
     keys: %w(new_key_pair.pem),
     forward_agent: false
   }  
+
+namespace :deploy do
+    desc 'Print The Server Name'
+    task :create_file_environment do
+      on roles(:app), in: :groups, limit:1 do
+        print '================ Create .env file ================'
+        execute "echo 'APP_ENV=dev' >> '#{release_path}/.env'"
+      end
+    end
+end
+before "deploy:symlink:release", "deploy:create_file_environment"
