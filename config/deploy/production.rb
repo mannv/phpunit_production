@@ -73,7 +73,7 @@ set :branch, 'master'
 #     forward_agent: false
 #   }
 
-server '35.163.165.15',
+server '35.165.3.50',
   user: 'ubuntu',
   roles: %w{web app},
   ssh_options: {
