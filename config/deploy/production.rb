@@ -87,7 +87,7 @@ namespace :deploy do
     task :create_file_environment do
       on roles(:app), in: :groups, limit:1 do
         print '================ Create .env file ================'
-        execute "echo 'APP_ENV=dev' >> '#{release_path}/.env'"
+        execute "echo 'APP_ENV=prod' >> '#{release_path}/.env'"
       end
     end
 end
