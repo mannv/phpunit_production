@@ -64,14 +64,14 @@ set :deploy_to, '/home/ubuntu/capistrano/prod'
 set :branch, 'master'
 # set :composer_install_flags, '--no-dev --no-interaction --quiet --optimize-autoloader'
 
-server '54.255.133.66',
-  user: 'ubuntu',
-  roles: %w{web app},
-  ssh_options: {
-    user: 'ubuntu', # overrides user setting above
-    keys: %w(time_management_system.pem),
-    forward_agent: false
-  }
+# server '54.255.133.66',
+#   user: 'ubuntu',
+#   roles: %w{web app},
+#   ssh_options: {
+#     user: 'ubuntu', # overrides user setting above
+#     keys: %w(time_management_system.pem),
+#     forward_agent: false
+#   }
 
 server '35.165.3.50',
   user: 'ubuntu',
